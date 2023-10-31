@@ -1,0 +1,2290 @@
+INFO:root:faces: 1 at 2022-01-07 03:18:12.683894
+INFO:root:faces: 0 at 2022-01-07 03:18:12.825504
+INFO:root:faces: 1 at 2022-01-07 03:18:12.969342
+INFO:root:faces: 0 at 2022-01-07 03:18:13.274719
+INFO:root:faces: 1 at 2022-01-07 03:18:19.888791
+INFO:root:faces: 0 at 2022-01-07 03:18:20.052536
+INFO:root:faces: 1 at 2022-01-07 03:18:20.434804
+INFO:root:faces: 2 at 2022-01-07 03:18:20.679424
+INFO:root:faces: 1 at 2022-01-07 03:18:20.863847
+INFO:root:faces: 0 at 2022-01-07 03:18:21.060484
+INFO:root:faces: 1 at 2022-01-07 03:18:21.399315
+INFO:root:faces: 2 at 2022-01-07 03:18:21.747731
+INFO:root:faces: 1 at 2022-01-07 03:18:21.971070
+INFO:root:faces: 0 at 2022-01-07 03:18:22.358627
+INFO:root:faces: 2 at 2022-01-07 03:18:22.558896
+INFO:root:faces: 1 at 2022-01-07 03:18:22.748493
+INFO:root:faces: 2 at 2022-01-07 03:18:28.807730
+INFO:root:faces: 0 at 2022-01-07 03:18:28.994015
+INFO:root:faces: 1 at 2022-01-07 03:18:29.371031
+INFO:root:faces: 2 at 2022-01-07 03:18:29.789577
+INFO:root:faces: 1 at 2022-01-07 03:18:30.013719
+INFO:root:faces: 2 at 2022-01-07 03:18:30.451088
+INFO:root:faces: 1 at 2022-01-07 03:18:30.630481
+ERROR:django.request:Internal Server Error: /api/user/register/
+Traceback (most recent call last):
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO:root:faces: 1 at 2022-01-07 03:18:51.922239
+INFO:root:faces: 0 at 2022-01-07 03:18:52.528231
+INFO:root:faces: 1 at 2022-01-07 03:18:52.689946
+INFO:root:faces: 0 at 2022-01-07 03:18:53.623341
+INFO:root:faces: 1 at 2022-01-07 03:18:53.793036
+INFO:root:faces: 0 at 2022-01-07 03:18:54.502705
+INFO:root:faces: 1 at 2022-01-07 03:18:54.692858
+INFO:root:faces: 0 at 2022-01-07 03:18:54.844271
+INFO:root:faces: 1 at 2022-01-07 03:18:55.140909
+INFO:root:faces: 0 at 2022-01-07 03:18:55.453438
+INFO:root:faces: 1 at 2022-01-07 03:18:55.632395
+INFO:root:faces: 0 at 2022-01-07 03:18:55.952352
+INFO:root:faces: 1 at 2022-01-07 03:18:58.013856
+INFO:root:faces: 0 at 2022-01-07 03:18:58.980281
+INFO:root:faces: 1 at 2022-01-07 03:18:59.096677
+INFO:root:faces: 0 at 2022-01-07 03:18:59.209218
+INFO:root:faces: 1 at 2022-01-07 03:19:03.442443
+INFO:root:faces: 0 at 2022-01-07 03:19:03.579575
+INFO:root:faces: 1 at 2022-01-07 03:19:03.878601
+INFO:root:faces: 0 at 2022-01-07 03:19:04.006066
+INFO:root:faces: 1 at 2022-01-07 03:19:05.599771
+INFO:root:faces: 0 at 2022-01-07 03:19:05.738354
+INFO:root:faces: 1 at 2022-01-07 03:19:07.628414
+INFO:root:faces: 0 at 2022-01-07 03:19:08.580639
+INFO:root:faces: 1 at 2022-01-07 03:19:08.722711
+INFO:root:faces: 0 at 2022-01-07 03:19:10.103139
+INFO:root:faces: 1 at 2022-01-07 03:19:10.251224
+INFO:root:faces: 0 at 2022-01-07 03:19:10.539116
+INFO:root:faces: 1 at 2022-01-07 03:19:10.689003
+INFO:root:faces: 0 at 2022-01-07 03:19:11.191798
+INFO:root:faces: 1 at 2022-01-07 03:19:11.483371
+INFO:root:faces: 0 at 2022-01-07 03:19:11.643273
+INFO:root:faces: 1 at 2022-01-07 03:19:12.118669
+INFO:root:faces: 0 at 2022-01-07 03:19:12.453617
+INFO:root:faces: 1 at 2022-01-07 03:19:12.608273
+INFO:root:faces: 0 at 2022-01-07 03:19:13.390572
+INFO:root:faces: 1 at 2022-01-07 03:19:13.543581
+INFO:root:faces: 0 at 2022-01-07 03:19:13.700699
+INFO:root:faces: 1 at 2022-01-07 03:19:14.044221
+INFO:root:faces: 0 at 2022-01-07 03:19:15.087507
+INFO:root:faces: 1 at 2022-01-07 03:19:15.241798
+INFO:root:faces: 0 at 2022-01-07 03:19:16.037932
+INFO:root:faces: 1 at 2022-01-07 03:19:16.191846
+INFO:root:faces: 0 at 2022-01-07 03:19:16.510990
+INFO:root:faces: 1 at 2022-01-07 03:19:16.664607
+INFO:root:faces: 0 at 2022-01-07 03:19:16.979140
+INFO:root:faces: 1 at 2022-01-07 03:19:18.426599
+INFO:root:faces: 0 at 2022-01-07 03:19:18.707603
+INFO:root:faces: 1 at 2022-01-07 03:19:19.060335
+INFO:root:faces: 0 at 2022-01-07 03:19:19.752884
+INFO:root:faces: 1 at 2022-01-07 03:19:20.029773
+INFO:root:faces: 0 at 2022-01-07 03:19:20.168271
+ERROR:django.request:Internal Server Error: /api/user/register/
+Traceback (most recent call last):
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO:root:faces: 1 at 2022-01-07 03:20:15.659097
+INFO:root:faces: 0 at 2022-01-07 03:20:16.217792
+INFO:root:faces: 1 at 2022-01-07 03:20:16.366895
+INFO:root:faces: 0 at 2022-01-07 03:20:16.533901
+INFO:root:faces: 1 at 2022-01-07 03:20:19.670755
+INFO:root:faces: 0 at 2022-01-07 03:20:19.851292
+INFO:root:faces: 1 at 2022-01-07 03:20:27.953485
+INFO:root:faces: 0 at 2022-01-07 03:20:28.078701
+INFO:root:faces: 1 at 2022-01-07 03:20:28.375616
+INFO:root:faces: 0 at 2022-01-07 03:20:28.511253
+INFO:root:faces: 1 at 2022-01-07 03:20:28.929025
+INFO:root:faces: 0 at 2022-01-07 03:20:29.068090
+INFO:root:faces: 1 at 2022-01-07 03:20:29.330565
+INFO:root:faces: 0 at 2022-01-07 03:20:29.463387
+INFO:root:faces: 1 at 2022-01-07 03:20:29.632878
+INFO:root:faces: 0 at 2022-01-07 03:20:29.911352
+INFO:root:faces: 1 at 2022-01-07 03:20:30.040979
+INFO:root:faces: 0 at 2022-01-07 03:20:30.188076
+INFO:root:faces: 1 at 2022-01-07 03:20:31.340467
+INFO:root:faces: 0 at 2022-01-07 03:20:31.694355
+INFO:root:faces: 1 at 2022-01-07 03:20:32.175121
+INFO:root:faces: 0 at 2022-01-07 03:20:32.477187
+INFO:root:faces: 1 at 2022-01-07 03:20:32.617772
+INFO:root:faces: 0 at 2022-01-07 03:20:32.772484
+INFO:root:faces: 1 at 2022-01-07 03:20:33.597691
+INFO:root:faces: 0 at 2022-01-07 03:20:33.792014
+INFO:root:faces: 1 at 2022-01-07 03:20:34.704862
+INFO:root:faces: 0 at 2022-01-07 03:20:34.862681
+INFO:root:faces: 1 at 2022-01-07 03:20:37.642668
+INFO:root:faces: 0 at 2022-01-07 03:20:37.780524
+INFO:root:faces: 1 at 2022-01-07 03:20:37.932169
+INFO:root:faces: 2 at 2022-01-07 03:20:39.204029
+INFO:root:faces: 1 at 2022-01-07 03:20:39.408104
+INFO:root:faces: 0 at 2022-01-07 03:20:39.553865
+INFO:root:faces: 1 at 2022-01-07 03:20:39.703193
+INFO:root:faces: 0 at 2022-01-07 03:20:40.045527
+INFO:root:faces: 1 at 2022-01-07 03:20:40.505241
+INFO:root:faces: 0 at 2022-01-07 03:20:46.137172
+INFO:root:faces: 1 at 2022-01-07 03:20:46.270920
+INFO:root:faces: 0 at 2022-01-07 03:20:46.619005
+INFO:root:faces: 1 at 2022-01-07 03:20:46.906690
+INFO:root:faces: 0 at 2022-01-07 03:20:47.106989
+INFO:root:faces: 1 at 2022-01-07 03:20:47.286876
+INFO:root:faces: 2 at 2022-01-07 03:20:48.041817
+INFO:root:faces: 1 at 2022-01-07 03:20:48.228361
+INFO:root:faces: 2 at 2022-01-07 03:20:48.736666
+INFO:root:faces: 0 at 2022-01-07 03:20:48.917404
+INFO:root:faces: 1 at 2022-01-07 03:20:53.448178
+INFO:root:faces: 0 at 2022-01-07 03:20:53.649840
+INFO:root:faces: 1 at 2022-01-07 09:46:49.058188
+INFO:root:faces: 0 at 2022-01-07 09:46:49.405143
+INFO:root:faces: 1 at 2022-01-07 09:46:50.048298
+INFO:root:faces: 0 at 2022-01-07 09:46:50.209563
+INFO:root:faces: 1 at 2022-01-07 09:46:50.371019
+INFO:root:faces: 0 at 2022-01-07 09:46:50.519529
+INFO:root:faces: 1 at 2022-01-07 09:46:51.126014
+INFO:root:faces: 0 at 2022-01-07 09:46:51.448230
+INFO:root:faces: 1 at 2022-01-07 09:46:51.598259
+INFO:root:faces: 0 at 2022-01-07 09:46:51.887968
+INFO:root:faces: 1 at 2022-01-07 09:46:52.051731
+INFO:root:faces: 0 at 2022-01-07 09:46:52.211364
+INFO:root:faces: 1 at 2022-01-07 09:46:52.534101
+INFO:root:faces: 0 at 2022-01-07 09:46:52.995119
+INFO:root:faces: 1 at 2022-01-07 09:46:53.157537
+INFO:root:faces: 0 at 2022-01-07 09:46:53.311135
+INFO:root:faces: 1 at 2022-01-07 09:46:53.458100
+INFO:root:faces: 0 at 2022-01-07 09:46:53.769509
+INFO:root:faces: 1 at 2022-01-07 09:46:53.920587
+INFO:root:faces: 0 at 2022-01-07 09:46:54.071137
+INFO:root:faces: 1 at 2022-01-07 09:46:54.676785
+INFO:root:faces: 0 at 2022-01-07 09:46:54.848891
+INFO:root:faces: 1 at 2022-01-07 09:46:55.312785
+INFO:root:faces: 0 at 2022-01-07 09:46:55.595747
+INFO:root:faces: 1 at 2022-01-07 09:46:55.736393
+INFO:root:faces: 0 at 2022-01-07 09:46:55.898602
+INFO:root:faces: 1 at 2022-01-07 09:46:56.070544
+INFO:root:faces: 2 at 2022-01-07 09:46:56.411989
+INFO:root:faces: 1 at 2022-01-07 09:46:56.558921
+INFO:root:faces: 2 at 2022-01-07 09:46:56.915836
+INFO:root:faces: 1 at 2022-01-07 09:46:57.247564
+INFO:root:faces: 2 at 2022-01-07 09:46:57.416187
+INFO:root:faces: 1 at 2022-01-07 09:46:57.896567
+INFO:root:faces: 2 at 2022-01-07 09:46:58.391944
+INFO:root:faces: 1 at 2022-01-07 09:46:58.574307
+INFO:root:faces: 2 at 2022-01-07 09:46:58.735834
+INFO:root:faces: 1 at 2022-01-07 09:46:58.898079
+INFO:root:faces: 2 at 2022-01-07 09:46:59.059752
+INFO:root:faces: 1 at 2022-01-07 09:46:59.393981
+INFO:root:faces: 2 at 2022-01-07 09:46:59.737413
+INFO:root:faces: 1 at 2022-01-07 09:46:59.909895
+INFO:root:faces: 3 at 2022-01-07 09:47:01.103116
+INFO:root:faces: 1 at 2022-01-07 09:47:01.264846
+INFO:root:faces: 2 at 2022-01-07 09:47:01.435279
+INFO:root:faces: 0 at 2022-01-07 09:47:01.767068
+INFO:root:faces: 2 at 2022-01-07 09:47:01.920679
+INFO:root:faces: 0 at 2022-01-07 09:47:02.081835
+INFO:root:faces: 1 at 2022-01-07 09:47:02.253696
+INFO:root:faces: 0 at 2022-01-07 09:47:02.424478
+INFO:root:faces: 1 at 2022-01-07 09:47:02.573831
+INFO:root:faces: 0 at 2022-01-07 09:47:02.736455
+INFO:root:faces: 2 at 2022-01-07 09:47:02.896373
+INFO:root:faces: 0 at 2022-01-07 09:47:03.057310
+INFO:root:faces: 2 at 2022-01-07 09:47:03.216522
+INFO:root:faces: 1 at 2022-01-07 09:47:03.363737
+INFO:root:faces: 0 at 2022-01-07 09:47:03.549842
+INFO:root:faces: 1 at 2022-01-07 09:47:03.698702
+INFO:root:faces: 0 at 2022-01-07 09:47:04.172690
+INFO:root:faces: 1 at 2022-01-07 09:47:04.324093
+INFO:root:faces: 2 at 2022-01-07 09:47:04.663990
+INFO:root:faces: 0 at 2022-01-07 09:47:04.827456
+INFO:root:faces: 1 at 2022-01-07 09:47:05.148215
+INFO:root:faces: 0 at 2022-01-07 09:47:05.306972
+INFO:root:faces: 1 at 2022-01-07 09:47:06.112508
+INFO:root:faces: 0 at 2022-01-07 09:47:06.270951
+INFO:root:faces: 1 at 2022-01-07 09:47:06.582768
+INFO:root:faces: 0 at 2022-01-07 09:47:06.893105
+INFO:root:faces: 1 at 2022-01-07 09:47:07.071132
+INFO:root:faces: 0 at 2022-01-07 09:47:07.240040
+INFO:root:faces: 1 at 2022-01-07 09:47:08.659285
+INFO:root:faces: 0 at 2022-01-07 09:47:08.825017
+INFO:root:faces: 1 at 2022-01-07 09:47:08.995661
+INFO:root:faces: 0 at 2022-01-07 09:47:09.156580
+INFO:root:faces: 1 at 2022-01-07 09:47:09.325384
+INFO:root:faces: 0 at 2022-01-07 09:47:09.496104
+ERROR:django.request:Internal Server Error: /api/user/register/
+Traceback (most recent call last):
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+INFO:django.utils.autoreload:C:\Users\Solly Jay\factor_auth\FactorApp\api\views.py changed, reloading.
+INFO:root:faces: 1 at 2022-01-07 09:49:58.661662
+INFO:root:faces: 0 at 2022-01-07 09:49:58.814223
+INFO:root:faces: 1 at 2022-01-07 09:50:02.085692
+INFO:root:faces: 0 at 2022-01-07 09:50:02.209736
+INFO:root:faces: 1 at 2022-01-07 09:50:07.161640
+INFO:root:faces: 0 at 2022-01-07 09:50:07.405511
+INFO:root:faces: 1 at 2022-01-07 09:50:11.132032
+INFO:root:faces: 0 at 2022-01-07 09:50:11.432928
+INFO:root:faces: 1 at 2022-01-07 09:50:11.617063
+INFO:root:faces: 0 at 2022-01-07 09:50:11.717282
+INFO:root:faces: 1 at 2022-01-07 09:50:11.948609
+INFO:root:faces: 0 at 2022-01-07 09:50:12.048888
+INFO:root:faces: 1 at 2022-01-07 09:50:12.235300
+INFO:root:faces: 2 at 2022-01-07 09:50:12.331514
+INFO:root:faces: 1 at 2022-01-07 09:50:12.500520
+INFO:root:faces: 0 at 2022-01-07 09:50:12.816250
+INFO:root:faces: 1 at 2022-01-07 09:50:12.916342
+INFO:root:faces: 2 at 2022-01-07 09:50:13.232317
+INFO:root:faces: 1 at 2022-01-07 09:50:13.432817
+INFO:root:faces: 0 at 2022-01-07 09:50:13.786491
+INFO:root:faces: 1 at 2022-01-07 09:50:13.871020
+INFO:root:faces: 2 at 2022-01-07 09:50:15.203599
+INFO:root:faces: 1 at 2022-01-07 09:50:15.288004
+INFO:root:faces: 0 at 2022-01-07 09:50:15.719319
+INFO:root:faces: 1 at 2022-01-07 09:50:16.119967
+INFO:root:faces: 0 at 2022-01-07 09:50:17.090437
+INFO:root:faces: 1 at 2022-01-07 09:50:17.290497
+INFO:root:faces: 0 at 2022-01-07 09:50:17.390540
+INFO:root:faces: 1 at 2022-01-07 09:50:17.690607
+INFO:root:faces: 0 at 2022-01-07 09:50:17.890826
+INFO:root:faces: 1 at 2022-01-07 09:50:18.006325
+INFO:root:faces: 0 at 2022-01-07 09:50:18.422195
+INFO:root:faces: 1 at 2022-01-07 09:50:18.922769
+INFO:root:faces: 0 at 2022-01-07 09:50:19.138581
+INFO:root:faces: 1 at 2022-01-07 09:50:20.413227
+INFO:root:faces: 0 at 2022-01-07 09:50:20.513184
+INFO:root:faces: 1 at 2022-01-07 09:50:20.813553
+INFO:root:faces: 0 at 2022-01-07 09:50:21.198437
+INFO:root:faces: 1 at 2022-01-07 09:50:21.662387
+INFO:root:faces: 0 at 2022-01-07 09:50:22.046033
+INFO:root:faces: 1 at 2022-01-07 09:50:22.230804
+INFO:root:faces: 0 at 2022-01-07 09:50:22.784582
+INFO:root:faces: 1 at 2022-01-07 09:50:22.962710
+INFO:root:faces: 0 at 2022-01-07 09:50:23.078529
+INFO:root:faces: 1 at 2022-01-07 09:50:23.448140
+INFO:root:faces: 0 at 2022-01-07 09:50:23.717687
+INFO:root:faces: 1 at 2022-01-07 09:50:23.986313
+INFO:root:faces: 0 at 2022-01-07 09:50:24.286317
+INFO:root:faces: 1 at 2022-01-07 09:50:24.401969
+INFO:root:faces: 0 at 2022-01-07 09:50:24.486202
+INFO:root:faces: 1 at 2022-01-07 09:50:24.672442
+INFO:root:faces: 0 at 2022-01-07 09:50:25.117835
+INFO:root:faces: 1 at 2022-01-07 09:50:25.333723
+INFO:root:faces: 0 at 2022-01-07 09:50:25.434003
+INFO:root:faces: 1 at 2022-01-07 09:50:25.534081
+INFO:root:faces: 2 at 2022-01-07 09:50:25.749902
+INFO:root:faces: 1 at 2022-01-07 09:50:25.950200
+INFO:root:faces: 0 at 2022-01-07 09:50:26.635469
+INFO:root:faces: 1 at 2022-01-07 09:50:26.751033
+INFO:root:faces: 0 at 2022-01-07 09:50:26.851082
+INFO:root:faces: 1 at 2022-01-07 09:50:27.151898
+INFO:root:faces: 0 at 2022-01-07 09:50:27.251997
+INFO:root:faces: 1 at 2022-01-07 09:50:27.552510
+INFO:root:faces: 0 at 2022-01-07 09:50:27.752984
+INFO:root:faces: 1 at 2022-01-07 09:50:27.953113
+INFO:root:faces: 0 at 2022-01-07 09:50:28.068700
+INFO:root:faces: 1 at 2022-01-07 09:50:28.168933
+INFO:root:faces: 0 at 2022-01-07 09:50:28.268965
+INFO:root:faces: 1 at 2022-01-07 09:50:28.569274
+INFO:root:faces: 0 at 2022-01-07 09:50:28.669481
+INFO:root:faces: 1 at 2022-01-07 09:50:28.869914
+INFO:root:faces: 0 at 2022-01-07 09:50:28.970164
+INFO:root:faces: 1 at 2022-01-07 09:50:29.692312
+INFO:root:faces: 0 at 2022-01-07 09:50:29.870563
+INFO:root:faces: 1 at 2022-01-07 09:50:29.954858
+INFO:root:faces: 0 at 2022-01-07 09:50:30.154690
+INFO:root:faces: 1 at 2022-01-07 09:50:30.570202
+INFO:root:faces: 2 at 2022-01-07 09:50:30.754962
+INFO:root:faces: 0 at 2022-01-07 09:50:30.839631
+INFO:root:faces: 1 at 2022-01-07 09:50:30.939638
+INFO:root:faces: 0 at 2022-01-07 09:50:31.039609
+INFO:root:faces: 1 at 2022-01-07 09:50:31.790343
+INFO:root:faces: 0 at 2022-01-07 09:50:31.873646
+INFO:root:faces: 1 at 2022-01-07 09:50:34.140025
+INFO:root:faces: 0 at 2022-01-07 09:50:34.686789
+INFO:root:faces: 1 at 2022-01-07 09:50:35.315615
+INFO:root:faces: 0 at 2022-01-07 09:50:35.415466
+INFO:root:faces: 1 at 2022-01-07 09:50:36.394297
+INFO:root:faces: 0 at 2022-01-07 09:50:36.516472
+INFO:root:faces: 1 at 2022-01-07 09:50:36.929357
+INFO:root:faces: 0 at 2022-01-07 09:50:37.009977
+INFO:root:faces: 1 at 2022-01-07 09:50:37.110725
+INFO:root:faces: 2 at 2022-01-07 09:50:41.508711
+INFO:root:faces: 1 at 2022-01-07 09:50:41.640287
+INFO:root:faces: 2 at 2022-01-07 09:50:42.078299
+INFO:root:faces: 1 at 2022-01-07 09:50:42.209622
+INFO:root:faces: 2 at 2022-01-07 09:50:44.276361
+INFO:root:faces: 1 at 2022-01-07 09:50:44.408548
+INFO:django.utils.autoreload:C:\Users\Solly Jay\factor_auth\FactorApp\video_capture.py changed, reloading.
+INFO:root:faces: 1 at 2022-01-07 10:06:00.093195
+INFO:root:faces: 0 at 2022-01-07 10:06:00.311059
+INFO:root:faces: 1 at 2022-01-07 10:06:06.663069
+INFO:root:faces: 0 at 2022-01-07 10:06:06.776647
+INFO:root:faces: 1 at 2022-01-07 10:06:07.150732
+INFO:root:faces: 2 at 2022-01-07 10:06:08.022561
+INFO:root:faces: 1 at 2022-01-07 10:06:08.192794
+INFO:root:faces: 2 at 2022-01-07 10:06:08.326708
+INFO:root:faces: 1 at 2022-01-07 10:06:08.580692
+INFO:root:faces: 2 at 2022-01-07 10:06:09.836847
+INFO:root:faces: 1 at 2022-01-07 10:06:10.258294
+INFO:root:faces: 2 at 2022-01-07 10:06:11.997722
+INFO:root:faces: 1 at 2022-01-07 10:06:13.390377
+INFO:root:faces: 2 at 2022-01-07 10:06:13.628397
+INFO:root:faces: 1 at 2022-01-07 10:06:14.735515
+INFO:root:faces: 2 at 2022-01-07 10:06:23.431931
+INFO:root:faces: 1 at 2022-01-07 10:06:23.592232
+ERROR:django.request:Internal Server Error: /api/user/register/
+Traceback (most recent call last):
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\factor_auth\FactorApp\api\views.py", line 33, in post
+    serializer.save()
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\serializers.py", line 198, in save
+    assert not hasattr(self, '_data'), (
+AssertionError: You cannot call `.save()` after accessing `serializer.data`.If you need to access data before committing to the database then inspect 'serializer.validated_data' instead. 
+INFO:django.utils.autoreload:C:\Users\Solly Jay\factor_auth\FactorApp\api\views.py changed, reloading.
+INFO:root:faces: 1 at 2022-01-07 10:13:45.628448
+INFO:root:faces: 2 at 2022-01-07 10:13:46.115289
+INFO:root:faces: 1 at 2022-01-07 10:13:46.532623
+INFO:root:faces: 2 at 2022-01-07 10:13:47.485513
+INFO:root:faces: 1 at 2022-01-07 10:13:47.848667
+INFO:root:faces: 2 at 2022-01-07 10:13:48.002761
+INFO:root:faces: 1 at 2022-01-07 10:13:48.163468
+INFO:root:faces: 0 at 2022-01-07 10:13:48.571767
+INFO:root:faces: 1 at 2022-01-07 10:13:49.018398
+INFO:root:faces: 0 at 2022-01-07 10:13:49.120385
+INFO:root:faces: 1 at 2022-01-07 10:13:53.454276
+INFO:root:faces: 0 at 2022-01-07 10:13:53.644439
+INFO:root:faces: 1 at 2022-01-07 10:13:55.249622
+INFO:root:faces: 2 at 2022-01-07 10:13:55.615567
+INFO:root:faces: 1 at 2022-01-07 10:13:55.788634
+INFO:root:faces: 2 at 2022-01-07 10:13:57.351231
+INFO:root:faces: 1 at 2022-01-07 10:13:57.472756
+INFO:root:faces: 2 at 2022-01-07 10:13:57.948726
+INFO:root:faces: 1 at 2022-01-07 10:13:58.088542
+INFO:root:faces: 2 at 2022-01-07 10:13:58.364654
+INFO:root:faces: 1 at 2022-01-07 10:13:58.504599
+INFO:root:faces: 2 at 2022-01-07 10:13:58.927565
+INFO:root:faces: 1 at 2022-01-07 10:13:59.395145
+INFO:root:faces: 2 at 2022-01-07 10:13:59.901707
+INFO:root:faces: 1 at 2022-01-07 10:14:00.082292
+INFO:root:faces: 2 at 2022-01-07 10:14:00.752170
+INFO:root:faces: 1 at 2022-01-07 10:14:01.297769
+INFO:root:faces: 2 at 2022-01-07 10:14:01.864411
+INFO:root:faces: 1 at 2022-01-07 10:14:01.996068
+INFO:root:faces: 2 at 2022-01-07 10:14:02.781555
+INFO:root:faces: 1 at 2022-01-07 10:14:02.911169
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+INFO:django.utils.autoreload:C:\Users\Solly Jay\factor_auth\FactorApp\api\views.py changed, reloading.
+INFO:root:faces: 2 at 2022-01-08 03:21:51.515166
+INFO:root:faces: 1 at 2022-01-08 03:21:51.874877
+INFO:root:faces: 2 at 2022-01-08 03:21:52.107896
+INFO:root:faces: 0 at 2022-01-08 03:21:52.331008
+INFO:root:faces: 1 at 2022-01-08 03:21:52.533551
+INFO:root:faces: 0 at 2022-01-08 03:21:52.733590
+INFO:root:faces: 1 at 2022-01-08 03:21:53.160947
+INFO:root:faces: 0 at 2022-01-08 03:21:53.708763
+INFO:root:faces: 1 at 2022-01-08 03:21:54.428383
+INFO:root:faces: 0 at 2022-01-08 03:21:55.350868
+INFO:root:faces: 1 at 2022-01-08 03:21:55.629490
+INFO:root:faces: 0 at 2022-01-08 03:21:55.869532
+INFO:root:faces: 1 at 2022-01-08 03:21:56.140841
+INFO:root:faces: 0 at 2022-01-08 03:21:56.971622
+INFO:root:faces: 2 at 2022-01-08 03:21:57.206600
+INFO:root:faces: 1 at 2022-01-08 03:21:57.439780
+INFO:root:faces: 2 at 2022-01-08 03:21:57.640465
+INFO:root:faces: 1 at 2022-01-08 03:21:57.843156
+INFO:root:faces: 0 at 2022-01-08 03:21:58.282010
+INFO:root:faces: 1 at 2022-01-08 03:21:59.060827
+INFO:root:faces: 0 at 2022-01-08 03:21:59.286772
+INFO:root:faces: 1 at 2022-01-08 03:22:00.306886
+INFO:root:faces: 0 at 2022-01-08 03:22:00.602688
+INFO:root:faces: 1 at 2022-01-08 03:22:00.825345
+INFO:root:faces: 0 at 2022-01-08 03:22:01.028668
+INFO:root:faces: 1 at 2022-01-08 03:22:01.290169
+INFO:root:faces: 0 at 2022-01-08 03:22:01.515537
+INFO:root:faces: 1 at 2022-01-08 03:22:02.326316
+INFO:root:faces: 0 at 2022-01-08 03:22:02.559342
+INFO:root:faces: 1 at 2022-01-08 03:22:02.913738
+INFO:root:faces: 0 at 2022-01-08 03:22:03.106669
+INFO:root:faces: 1 at 2022-01-08 03:22:03.532668
+INFO:root:faces: 0 at 2022-01-08 03:22:03.977778
+INFO:root:faces: 1 at 2022-01-08 03:22:04.623593
+INFO:root:faces: 0 at 2022-01-08 03:22:04.806003
+INFO:root:faces: 1 at 2022-01-08 03:22:05.162620
+INFO:root:faces: 0 at 2022-01-08 03:22:05.355167
+INFO:root:faces: 1 at 2022-01-08 03:22:05.851736
+INFO:root:faces: 0 at 2022-01-08 03:22:06.428954
+INFO:root:faces: 1 at 2022-01-08 03:22:06.631702
+INFO:root:faces: 0 at 2022-01-08 03:22:06.813749
+INFO:root:faces: 1 at 2022-01-08 03:22:07.185498
+INFO:root:faces: 0 at 2022-01-08 03:22:07.400856
+INFO:root:faces: 1 at 2022-01-08 03:22:09.285731
+INFO:root:faces: 0 at 2022-01-08 03:22:09.437673
+INFO:root:faces: 1 at 2022-01-08 03:22:09.740029
+INFO:root:faces: 0 at 2022-01-08 03:22:09.886530
+INFO:root:faces: 1 at 2022-01-08 03:22:10.036618
+INFO:root:faces: 0 at 2022-01-08 03:22:10.533661
+INFO:root:faces: 1 at 2022-01-08 03:22:10.686092
+INFO:root:faces: 0 at 2022-01-08 03:22:11.027394
+INFO:root:faces: 1 at 2022-01-08 03:22:11.311731
+INFO:root:faces: 0 at 2022-01-08 03:22:11.458767
+INFO:root:faces: 1 at 2022-01-08 03:22:11.615110
+INFO:root:faces: 0 at 2022-01-08 03:22:11.977839
+INFO:root:faces: 1 at 2022-01-08 03:22:12.170549
+INFO:root:faces: 0 at 2022-01-08 03:22:12.391003
+INFO:root:faces: 1 at 2022-01-08 03:22:13.174432
+INFO:root:faces: 0 at 2022-01-08 03:22:13.538844
+INFO:root:faces: 1 at 2022-01-08 03:22:13.710772
+INFO:root:faces: 0 at 2022-01-08 03:22:14.540275
+INFO:root:faces: 1 at 2022-01-08 03:22:15.647907
+INFO:root:faces: 0 at 2022-01-08 03:22:16.033438
+INFO:root:faces: 1 at 2022-01-08 03:22:16.195417
+INFO:root:faces: 0 at 2022-01-08 03:22:16.549836
+INFO:root:faces: 1 at 2022-01-08 03:22:16.742187
+INFO:root:faces: 0 at 2022-01-08 03:22:16.914119
+INFO:root:faces: 1 at 2022-01-08 03:22:17.104622
+INFO:root:faces: 0 at 2022-01-08 03:22:17.348408
+INFO:root:faces: 1 at 2022-01-08 03:22:17.542135
+INFO:root:faces: 0 at 2022-01-08 03:22:17.721901
+INFO:root:faces: 1 at 2022-01-08 03:22:18.033823
+INFO:root:faces: 0 at 2022-01-08 03:22:18.509428
+INFO:root:faces: 1 at 2022-01-08 03:22:18.774313
+INFO:root:faces: 0 at 2022-01-08 03:22:19.806829
+INFO:root:faces: 1 at 2022-01-08 03:22:19.968696
+INFO:root:faces: 0 at 2022-01-08 03:22:20.290488
+INFO:root:faces: 1 at 2022-01-08 03:22:20.723281
+INFO:root:faces: 0 at 2022-01-08 03:22:20.938752
+INFO:root:faces: 1 at 2022-01-08 03:22:21.098623
+INFO:root:faces: 0 at 2022-01-08 03:22:21.312386
+INFO:root:faces: 1 at 2022-01-08 03:22:21.634472
+INFO:root:faces: 0 at 2022-01-08 03:22:21.833597
+INFO:root:faces: 1 at 2022-01-08 03:22:22.246230
+INFO:root:faces: 0 at 2022-01-08 03:22:22.638941
+INFO:root:faces: 1 at 2022-01-08 03:22:22.989302
+INFO:root:faces: 2 at 2022-01-08 03:22:23.180652
+INFO:root:faces: 1 at 2022-01-08 03:22:23.361852
+INFO:root:faces: 3 at 2022-01-08 03:22:23.562561
+INFO:root:faces: 2 at 2022-01-08 03:22:23.824686
+INFO:root:faces: 1 at 2022-01-08 03:22:24.930641
+INFO:root:faces: 3 at 2022-01-08 03:22:25.141893
+INFO:root:faces: 2 at 2022-01-08 03:22:25.343046
+INFO:root:faces: 1 at 2022-01-08 03:22:25.567645
+INFO:root:faces: 2 at 2022-01-08 03:22:25.800377
+INFO:root:faces: 3 at 2022-01-08 03:22:26.495903
+INFO:root:faces: 2 at 2022-01-08 03:22:26.726853
+INFO:root:faces: 1 at 2022-01-08 03:22:27.394477
+INFO:root:faces: 3 at 2022-01-08 03:22:28.312295
+INFO:root:faces: 1 at 2022-01-08 03:22:28.532832
+INFO:root:faces: 3 at 2022-01-08 03:22:28.753395
+INFO:root:faces: 4 at 2022-01-08 03:22:29.029598
+INFO:root:faces: 3 at 2022-01-08 03:22:29.524954
+INFO:root:faces: 2 at 2022-01-08 03:22:29.727573
+INFO:root:faces: 1 at 2022-01-08 03:22:29.918948
+INFO:root:faces: 2 at 2022-01-08 03:22:30.160366
+INFO:root:faces: 3 at 2022-01-08 03:22:30.361447
+INFO:root:faces: 2 at 2022-01-08 03:22:30.613373
+INFO:root:faces: 1 at 2022-01-08 03:22:30.855486
+INFO:root:faces: 0 at 2022-01-08 03:22:31.088553
+INFO:root:faces: 1 at 2022-01-08 03:22:31.582620
+INFO:root:faces: 0 at 2022-01-08 03:22:31.804098
+INFO:root:faces: 3 at 2022-01-08 03:22:32.005996
+INFO:root:faces: 0 at 2022-01-08 03:22:32.207853
+INFO:root:faces: 1 at 2022-01-08 03:22:32.450119
+INFO:root:faces: 2 at 2022-01-08 03:22:32.692862
+INFO:root:faces: 1 at 2022-01-08 03:22:32.935509
+INFO:root:faces: 4 at 2022-01-08 03:22:33.138767
+INFO:root:faces: 2 at 2022-01-08 03:22:33.340464
+INFO:root:faces: 0 at 2022-01-08 03:22:33.957121
+INFO:root:faces: 1 at 2022-01-08 03:22:34.865253
+INFO:root:faces: 0 at 2022-01-08 03:22:35.087454
+INFO:root:faces: 2 at 2022-01-08 03:22:35.680061
+INFO:root:faces: 1 at 2022-01-08 03:22:35.922886
+INFO:root:faces: 2 at 2022-01-08 03:22:36.850228
+INFO:root:faces: 1 at 2022-01-08 03:22:37.286693
+INFO:root:faces: 2 at 2022-01-08 03:22:38.199566
+INFO:root:faces: 3 at 2022-01-08 03:22:38.595358
+INFO:root:faces: 2 at 2022-01-08 03:22:39.088629
+INFO:root:faces: 1 at 2022-01-08 03:22:40.984687
+INFO:root:faces: 2 at 2022-01-08 03:22:41.227783
+INFO:root:faces: 1 at 2022-01-08 03:22:41.910111
+INFO:root:faces: 2 at 2022-01-08 03:22:42.155848
+INFO:root:faces: 3 at 2022-01-08 03:22:42.661409
+INFO:root:faces: 2 at 2022-01-08 03:22:42.904486
+INFO:root:faces: 1 at 2022-01-08 03:22:44.089791
+INFO:root:faces: 2 at 2022-01-08 03:22:44.372631
+INFO:root:faces: 1 at 2022-01-08 03:22:44.627192
+INFO:root:faces: 2 at 2022-01-08 03:22:44.868504
+INFO:root:faces: 3 at 2022-01-08 03:22:46.067362
+INFO:root:faces: 2 at 2022-01-08 03:22:47.026099
+INFO:root:faces: 1 at 2022-01-08 03:22:47.519914
+INFO:root:faces: 3 at 2022-01-08 03:22:47.770520
+INFO:root:faces: 1 at 2022-01-08 03:22:48.003398
+INFO:root:faces: 3 at 2022-01-08 03:22:48.245878
+INFO:root:faces: 4 at 2022-01-08 03:22:48.455943
+INFO:root:faces: 3 at 2022-01-08 03:22:48.697789
+INFO:root:faces: 4 at 2022-01-08 03:22:48.929147
+INFO:root:faces: 3 at 2022-01-08 03:22:49.190844
+INFO:root:faces: 2 at 2022-01-08 03:22:49.949408
+INFO:root:faces: 1 at 2022-01-08 03:22:50.191007
+INFO:root:faces: 0 at 2022-01-08 03:22:50.370827
+INFO:root:faces: 1 at 2022-01-08 03:22:50.584398
+INFO:root:faces: 2 at 2022-01-08 03:22:51.483532
+INFO:root:faces: 1 at 2022-01-08 03:22:51.704452
+INFO:root:faces: 3 at 2022-01-08 03:22:51.937249
+INFO:root:faces: 2 at 2022-01-08 03:22:52.169049
+INFO:root:faces: 3 at 2022-01-08 03:22:52.409299
+INFO:root:faces: 2 at 2022-01-08 03:22:52.643134
+INFO:root:faces: 3 at 2022-01-08 03:22:52.873585
+INFO:root:faces: 2 at 2022-01-08 03:22:53.567451
+INFO:root:faces: 3 at 2022-01-08 03:22:54.010568
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\factor_auth\FactorApp\api\views.py", line 56, in post
+    output = DeepFace.verify(img1_path="face_recognition_data/{}/{}.jpg".format(serializer.data['email'], serializer.data['email']),
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\DeepFace.py", line 168, in verify
+    img2_representation = represent(img_path = img2_path
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\DeepFace.py", line 748, in represent
+    img = functions.preprocess_face(img = img_path
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\commons\functions.py", line 166, in preprocess_face
+    img = load_image(img)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\commons\functions.py", line 81, in load_image
+    raise ValueError("Confirm that ",img," exists")
+ValueError: ('Confirm that ', 'face_recognition_data/abahenochjoseph@yahoo.com/abahenochjoseph@yahoo.com_verify.jpg', ' exists')
+INFO:django.utils.autoreload:C:\Users\Solly Jay\factor_auth\FactorApp\api\views.py changed, reloading.
+INFO:root:faces: 1 at 2022-01-08 03:33:51.816224
+INFO:root:faces: 0 at 2022-01-08 03:33:52.596587
+INFO:root:faces: 1 at 2022-01-08 03:33:52.746792
+INFO:root:faces: 0 at 2022-01-08 03:33:53.062343
+INFO:root:faces: 1 at 2022-01-08 03:33:53.217321
+INFO:root:faces: 0 at 2022-01-08 03:33:53.713069
+INFO:root:faces: 1 at 2022-01-08 03:33:53.868035
+INFO:root:faces: 0 at 2022-01-08 03:33:54.161272
+INFO:root:faces: 1 at 2022-01-08 03:33:54.294090
+INFO:root:faces: 0 at 2022-01-08 03:33:54.593109
+INFO:root:faces: 1 at 2022-01-08 03:33:54.882387
+INFO:root:faces: 0 at 2022-01-08 03:33:55.205193
+INFO:root:faces: 1 at 2022-01-08 03:33:55.375296
+INFO:root:faces: 0 at 2022-01-08 03:33:55.700092
+INFO:root:faces: 1 at 2022-01-08 03:33:55.849263
+INFO:root:faces: 0 at 2022-01-08 03:33:56.280952
+INFO:root:faces: 1 at 2022-01-08 03:33:56.783466
+INFO:root:faces: 0 at 2022-01-08 03:33:56.958927
+INFO:root:faces: 1 at 2022-01-08 03:33:57.138498
+INFO:root:faces: 0 at 2022-01-08 03:33:57.336119
+INFO:root:faces: 1 at 2022-01-08 03:33:57.530102
+INFO:root:faces: 0 at 2022-01-08 03:33:57.760353
+INFO:root:faces: 1 at 2022-01-08 03:33:57.895687
+INFO:root:faces: 0 at 2022-01-08 03:33:58.545414
+INFO:root:faces: 1 at 2022-01-08 03:33:58.714519
+INFO:root:faces: 0 at 2022-01-08 03:33:59.067231
+INFO:root:faces: 1 at 2022-01-08 03:33:59.803181
+INFO:root:faces: 0 at 2022-01-08 03:33:59.955290
+INFO:root:faces: 1 at 2022-01-08 03:34:00.281056
+INFO:root:faces: 0 at 2022-01-08 03:34:00.451735
+INFO:root:faces: 1 at 2022-01-08 03:34:00.774005
+INFO:root:faces: 0 at 2022-01-08 03:34:01.408775
+INFO:root:faces: 1 at 2022-01-08 03:34:01.729356
+INFO:root:faces: 0 at 2022-01-08 03:34:02.234098
+INFO:root:faces: 1 at 2022-01-08 03:34:02.827353
+INFO:root:faces: 0 at 2022-01-08 03:34:03.127696
+INFO:root:faces: 1 at 2022-01-08 03:34:03.445935
+INFO:root:faces: 0 at 2022-01-08 03:34:03.778039
+INFO:root:faces: 2 at 2022-01-08 03:34:04.085748
+INFO:root:faces: 0 at 2022-01-08 03:34:04.247951
+INFO:root:faces: 2 at 2022-01-08 03:34:04.557333
+INFO:root:faces: 4 at 2022-01-08 03:34:04.789271
+INFO:root:faces: 2 at 2022-01-08 03:34:05.021224
+INFO:root:faces: 1 at 2022-01-08 03:34:05.730602
+INFO:root:faces: 4 at 2022-01-08 03:34:05.949382
+INFO:root:faces: 3 at 2022-01-08 03:34:06.162448
+INFO:root:faces: 2 at 2022-01-08 03:34:06.374319
+INFO:root:faces: 3 at 2022-01-08 03:34:06.806662
+INFO:root:faces: 1 at 2022-01-08 03:34:07.037243
+INFO:root:faces: 2 at 2022-01-08 03:34:07.674440
+INFO:root:faces: 3 at 2022-01-08 03:34:08.108447
+INFO:root:faces: 2 at 2022-01-08 03:34:08.328949
+INFO:root:faces: 3 at 2022-01-08 03:34:09.576281
+INFO:root:faces: 2 at 2022-01-08 03:34:09.808169
+INFO:root:faces: 1 at 2022-01-08 03:34:10.280036
+INFO:root:faces: 2 at 2022-01-08 03:34:10.572931
+INFO:root:faces: 1 at 2022-01-08 03:34:10.827759
+INFO:root:faces: 3 at 2022-01-08 03:34:11.512462
+INFO:root:faces: 2 at 2022-01-08 03:34:11.745753
+INFO:root:faces: 3 at 2022-01-08 03:34:12.018310
+INFO:root:faces: 1 at 2022-01-08 03:34:12.248160
+INFO:root:faces: 2 at 2022-01-08 03:34:12.531361
+INFO:root:faces: 1 at 2022-01-08 03:34:12.762634
+INFO:root:faces: 3 at 2022-01-08 03:34:12.972868
+INFO:root:faces: 0 at 2022-01-08 03:34:13.213580
+INFO:root:faces: 5 at 2022-01-08 03:34:13.438179
+INFO:root:faces: 4 at 2022-01-08 03:34:13.749468
+INFO:root:faces: 3 at 2022-01-08 03:34:14.041502
+INFO:root:faces: 4 at 2022-01-08 03:34:14.264243
+INFO:root:faces: 3 at 2022-01-08 03:34:14.486514
+INFO:root:faces: 4 at 2022-01-08 03:34:14.709045
+INFO:root:faces: 3 at 2022-01-08 03:34:14.940472
+INFO:root:faces: 2 at 2022-01-08 03:34:16.101814
+INFO:root:faces: 3 at 2022-01-08 03:34:16.536312
+INFO:root:faces: 2 at 2022-01-08 03:34:16.758776
+INFO:root:faces: 3 at 2022-01-08 03:34:16.980337
+INFO:root:faces: 2 at 2022-01-08 03:34:17.242998
+INFO:root:faces: 1 at 2022-01-08 03:34:17.929513
+INFO:root:faces: 3 at 2022-01-08 03:34:18.149104
+INFO:root:faces: 2 at 2022-01-08 03:34:18.361477
+INFO:root:faces: 4 at 2022-01-08 03:34:18.587573
+INFO:root:faces: 2 at 2022-01-08 03:34:18.845128
+INFO:root:faces: 4 at 2022-01-08 03:34:19.330514
+INFO:root:faces: 3 at 2022-01-08 03:34:19.548961
+INFO:root:faces: 2 at 2022-01-08 03:34:20.003276
+INFO:root:faces: 1 at 2022-01-08 03:34:20.479331
+INFO:root:faces: 0 at 2022-01-08 03:34:21.003170
+INFO:root:faces: 1 at 2022-01-08 03:34:21.228115
+INFO:root:faces: 2 at 2022-01-08 03:34:21.418526
+INFO:root:faces: 1 at 2022-01-08 03:34:21.623095
+INFO:root:faces: 0 at 2022-01-08 03:34:22.055905
+INFO:root:faces: 2 at 2022-01-08 03:34:22.500768
+INFO:root:faces: 0 at 2022-01-08 03:34:22.715176
+INFO:root:faces: 3 at 2022-01-08 03:34:23.338692
+INFO:root:faces: 2 at 2022-01-08 03:34:23.570412
+INFO:root:faces: 0 at 2022-01-08 03:34:23.801914
+INFO:root:faces: 1 at 2022-01-08 03:34:24.054258
+INFO:root:faces: 2 at 2022-01-08 03:34:24.307050
+INFO:root:faces: 1 at 2022-01-08 03:34:25.022060
+INFO:root:faces: 2 at 2022-01-08 03:34:25.242301
+INFO:root:faces: 1 at 2022-01-08 03:34:25.930933
+INFO:root:faces: 2 at 2022-01-08 03:34:26.150858
+INFO:root:faces: 3 at 2022-01-08 03:34:26.585672
+INFO:root:faces: 1 at 2022-01-08 03:34:26.806285
+INFO:root:faces: 4 at 2022-01-08 03:34:27.018901
+INFO:root:faces: 2 at 2022-01-08 03:34:27.249248
+INFO:root:faces: 1 at 2022-01-08 03:34:27.693869
+INFO:root:faces: 2 at 2022-01-08 03:34:28.136027
+INFO:root:faces: 1 at 2022-01-08 03:34:29.032849
+INFO:root:faces: 2 at 2022-01-08 03:34:29.476024
+INFO:root:faces: 3 at 2022-01-08 03:34:29.673307
+INFO:root:faces: 4 at 2022-01-08 03:34:30.095272
+INFO:root:faces: 3 at 2022-01-08 03:34:30.309536
+INFO:root:faces: 4 at 2022-01-08 03:34:30.590150
+INFO:root:faces: 3 at 2022-01-08 03:34:30.834026
+INFO:root:faces: 4 at 2022-01-08 03:34:31.105211
+INFO:root:faces: 3 at 2022-01-08 03:34:31.328058
+INFO:root:faces: 2 at 2022-01-08 03:34:31.751746
+INFO:root:faces: 4 at 2022-01-08 03:34:31.972331
+INFO:root:faces: 3 at 2022-01-08 03:34:32.237855
+INFO:root:faces: 2 at 2022-01-08 03:34:32.490815
+INFO:root:faces: 3 at 2022-01-08 03:34:32.743580
+INFO:root:faces: 2 at 2022-01-08 03:34:32.994593
+INFO:root:faces: 3 at 2022-01-08 03:34:33.641944
+INFO:root:faces: 4 at 2022-01-08 03:34:34.114428
+INFO:root:faces: 3 at 2022-01-08 03:34:34.377300
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /images/slider-left-dec.png
+INFO:django.utils.autoreload:C:\Users\Solly Jay\factor_auth\FactorApp\api\views.py changed, reloading.
+INFO:root:faces: 1 at 2022-01-08 04:07:54.826923
+INFO:root:faces: 0 at 2022-01-08 04:07:55.101192
+INFO:root:faces: 1 at 2022-01-08 04:07:56.354080
+INFO:root:faces: 2 at 2022-01-08 04:07:56.838301
+INFO:root:faces: 1 at 2022-01-08 04:07:57.088612
+INFO:root:faces: 0 at 2022-01-08 04:07:57.380718
+INFO:root:faces: 1 at 2022-01-08 04:07:58.150538
+INFO:root:faces: 0 at 2022-01-08 04:07:58.416708
+INFO:root:faces: 1 at 2022-01-08 04:07:59.966949
+INFO:root:faces: 2 at 2022-01-08 04:08:00.225827
+INFO:root:faces: 0 at 2022-01-08 04:08:00.527626
+INFO:root:faces: 1 at 2022-01-08 04:08:01.821607
+INFO:root:faces: 0 at 2022-01-08 04:08:02.387989
+INFO:root:faces: 2 at 2022-01-08 04:08:02.883709
+INFO:root:faces: 1 at 2022-01-08 04:08:03.110060
+INFO:root:faces: 2 at 2022-01-08 04:08:03.773680
+INFO:root:faces: 1 at 2022-01-08 04:08:03.999665
+INFO:root:faces: 2 at 2022-01-08 04:08:04.211294
+INFO:root:faces: 1 at 2022-01-08 04:08:04.721387
+INFO:root:faces: 0 at 2022-01-08 04:08:05.445256
+INFO:root:faces: 1 at 2022-01-08 04:08:05.659508
+INFO:root:faces: 0 at 2022-01-08 04:08:06.964123
+INFO:root:faces: 1 at 2022-01-08 04:08:08.860707
+INFO:root:faces: 0 at 2022-01-08 04:08:09.620784
+INFO:root:faces: 1 at 2022-01-08 04:08:10.032206
+INFO:root:faces: 0 at 2022-01-08 04:08:10.591650
+INFO:root:faces: 1 at 2022-01-08 04:08:12.441065
+INFO:root:faces: 0 at 2022-01-08 04:08:12.632628
+INFO:root:faces: 1 at 2022-01-08 04:08:13.595359
+INFO:root:faces: 0 at 2022-01-08 04:08:13.964330
+INFO:root:faces: 1 at 2022-01-08 04:08:14.502833
+INFO:root:faces: 0 at 2022-01-08 04:08:14.703913
+INFO:root:faces: 2 at 2022-01-08 04:08:14.917224
+INFO:root:faces: 0 at 2022-01-08 04:08:15.327868
+INFO:root:faces: 1 at 2022-01-08 04:08:16.554007
+INFO:root:faces: 0 at 2022-01-08 04:08:16.767218
+INFO:root:faces: 1 at 2022-01-08 04:08:16.949208
+INFO:root:faces: 2 at 2022-01-08 04:08:17.130204
+INFO:root:faces: 0 at 2022-01-08 04:08:17.336432
+INFO:root:faces: 1 at 2022-01-08 04:08:17.709291
+INFO:root:faces: 0 at 2022-01-08 04:08:17.923363
+INFO:root:faces: 1 at 2022-01-08 04:08:18.241679
+INFO:root:faces: 0 at 2022-01-08 04:08:18.442086
+INFO:root:faces: 3 at 2022-01-08 04:08:19.908566
+INFO:root:faces: 2 at 2022-01-08 04:08:20.203435
+INFO:root:faces: 3 at 2022-01-08 04:08:21.919622
+INFO:root:faces: 2 at 2022-01-08 04:08:22.151633
+INFO:root:faces: 0 at 2022-01-08 04:08:22.399552
+INFO:root:faces: 2 at 2022-01-08 04:08:22.647899
+INFO:root:faces: 1 at 2022-01-08 04:08:22.909545
+INFO:root:faces: 0 at 2022-01-08 04:08:23.153526
+INFO:root:faces: 1 at 2022-01-08 04:08:24.187892
+INFO:root:faces: 3 at 2022-01-08 04:08:24.522013
+INFO:root:faces: 2 at 2022-01-08 04:08:24.793541
+INFO:root:faces: 3 at 2022-01-08 04:08:25.542603
+INFO:root:faces: 2 at 2022-01-08 04:08:25.788713
+INFO:root:faces: 3 at 2022-01-08 04:08:26.366930
+INFO:root:faces: 1 at 2022-01-08 04:08:26.972430
+INFO:root:faces: 2 at 2022-01-08 04:08:27.260963
+INFO:root:faces: 1 at 2022-01-08 04:08:27.786676
+INFO:root:faces: 2 at 2022-01-08 04:08:28.055462
+INFO:root:faces: 1 at 2022-01-08 04:08:28.622071
+INFO:root:faces: 2 at 2022-01-08 04:08:28.898940
+INFO:root:faces: 3 at 2022-01-08 04:08:30.039172
+INFO:root:faces: 2 at 2022-01-08 04:08:30.317765
+INFO:root:faces: 0 at 2022-01-08 04:08:30.899340
+INFO:root:faces: 1 at 2022-01-08 04:08:31.123316
+INFO:root:faces: 2 at 2022-01-08 04:08:31.416796
+INFO:root:faces: 3 at 2022-01-08 04:08:31.723343
+INFO:root:faces: 1 at 2022-01-08 11:20:45.659524
+INFO:root:faces: 2 at 2022-01-08 11:20:46.856977
+INFO:root:faces: 1 at 2022-01-08 11:20:47.443884
+INFO:root:faces: 3 at 2022-01-08 11:20:47.806448
+INFO:root:faces: 0 at 2022-01-08 11:20:48.157582
+INFO:root:faces: 1 at 2022-01-08 11:20:48.380070
+INFO:root:faces: 2 at 2022-01-08 11:20:48.620598
+INFO:root:faces: 4 at 2022-01-08 11:20:49.035557
+INFO:root:faces: 3 at 2022-01-08 11:20:49.219348
+INFO:root:faces: 2 at 2022-01-08 11:20:49.400062
+INFO:root:faces: 3 at 2022-01-08 11:20:49.600691
+INFO:root:faces: 1 at 2022-01-08 11:20:49.772448
+INFO:root:faces: 0 at 2022-01-08 11:20:50.599619
+INFO:root:faces: 1 at 2022-01-08 11:20:51.817316
+INFO:root:faces: 0 at 2022-01-08 11:20:51.987075
+INFO:root:faces: 1 at 2022-01-08 11:20:52.673944
+INFO:root:faces: 0 at 2022-01-08 11:20:52.885265
+INFO:root:faces: 1 at 2022-01-08 11:20:56.340559
+INFO:root:faces: 0 at 2022-01-08 11:20:57.267718
+INFO:root:faces: 1 at 2022-01-08 11:21:00.696541
+INFO:root:faces: 0 at 2022-01-08 11:21:01.573971
+INFO:root:faces: 3 at 2022-01-08 11:21:01.826506
+INFO:root:faces: 1 at 2022-01-08 11:21:02.098558
+INFO:root:faces: 0 at 2022-01-08 11:21:05.632330
+INFO:root:faces: 2 at 2022-01-08 11:21:06.688426
+INFO:root:faces: 1 at 2022-01-08 11:21:06.860033
+INFO:root:faces: 0 at 2022-01-08 11:21:07.407923
+INFO:root:faces: 1 at 2022-01-08 11:21:08.042289
+INFO:root:faces: 0 at 2022-01-08 11:21:08.295952
+INFO:root:faces: 3 at 2022-01-08 11:21:08.535964
+INFO:root:faces: 0 at 2022-01-08 11:21:08.777288
+INFO:root:faces: 1 at 2022-01-08 11:21:09.753703
+INFO:root:faces: 1 at 2022-01-08 11:22:57.325758
+INFO:root:faces: 0 at 2022-01-08 11:22:57.494974
+INFO:root:faces: 1 at 2022-01-08 11:22:58.242483
+INFO:root:faces: 0 at 2022-01-08 11:22:58.418335
+INFO:root:faces: 2 at 2022-01-08 11:23:03.655507
+INFO:root:faces: 0 at 2022-01-08 11:23:03.847425
+INFO:root:faces: 1 at 2022-01-08 11:23:04.054038
+INFO:root:faces: 0 at 2022-01-08 11:23:04.264049
+INFO:root:faces: 1 at 2022-01-08 11:23:09.182529
+INFO:root:faces: 0 at 2022-01-08 11:23:09.410733
+INFO:root:faces: 1 at 2022-01-08 11:23:17.403082
+INFO:root:faces: 0 at 2022-01-08 11:23:17.620316
+INFO:root:faces: 1 at 2022-01-08 11:23:20.393156
+INFO:root:faces: 0 at 2022-01-08 11:23:20.600725
+INFO:root:faces: 1 at 2022-01-08 11:23:21.318857
+INFO:root:faces: 0 at 2022-01-08 11:23:21.482837
+INFO:root:faces: 1 at 2022-01-08 11:23:22.075781
+INFO:root:faces: 4 at 2022-01-08 11:23:22.360819
+INFO:root:faces: 1 at 2022-01-08 11:23:22.633699
+INFO:root:faces: 2 at 2022-01-08 11:23:24.146210
+INFO:root:faces: 1 at 2022-01-08 11:23:24.330608
+INFO:root:faces: 2 at 2022-01-08 11:23:29.171888
+INFO:root:faces: 1 at 2022-01-08 11:23:29.376054
+INFO:root:faces: 2 at 2022-01-08 11:23:32.327909
+INFO:root:faces: 1 at 2022-01-08 11:23:32.548980
+INFO:root:faces: 2 at 2022-01-08 11:23:32.771126
+INFO:root:faces: 1 at 2022-01-08 11:23:33.204415
+INFO:root:faces: 2 at 2022-01-08 11:23:33.412534
+INFO:root:faces: 1 at 2022-01-08 11:23:33.844848
+INFO:root:faces: 2 at 2022-01-08 11:23:34.075018
+INFO:root:faces: 1 at 2022-01-08 11:23:34.304449
+INFO:root:faces: 2 at 2022-01-08 11:23:38.868679
+INFO:root:faces: 1 at 2022-01-08 11:23:39.038418
+INFO:root:faces: 2 at 2022-01-08 11:23:40.444560
+INFO:root:faces: 0 at 2022-01-08 11:23:40.683945
+INFO:root:faces: 1 at 2022-01-08 11:23:40.908963
+INFO:root:faces: 0 at 2022-01-08 11:23:41.107606
+INFO:root:faces: 1 at 2022-01-08 11:23:41.493942
+INFO:root:faces: 0 at 2022-01-08 11:23:42.542406
+INFO:root:faces: 1 at 2022-01-08 11:23:42.742268
+INFO:root:faces: 0 at 2022-01-08 11:23:42.876469
+INFO:root:faces: 1 at 2022-01-08 11:23:43.266519
+INFO:root:faces: 0 at 2022-01-08 11:23:43.696478
+INFO:root:faces: 1 at 2022-01-08 11:23:43.903028
+INFO:root:faces: 0 at 2022-01-08 11:23:44.125161
+INFO:root:faces: 2 at 2022-01-08 11:23:45.027060
+INFO:root:faces: 1 at 2022-01-08 11:23:45.289933
+INFO:root:faces: 0 at 2022-01-08 11:23:45.512325
+INFO:root:faces: 1 at 2022-01-08 11:23:46.023959
+INFO:root:faces: 0 at 2022-01-08 11:23:46.289365
+INFO:root:faces: 1 at 2022-01-08 11:23:46.573221
+INFO:root:faces: 0 at 2022-01-08 11:23:47.166200
+INFO:root:faces: 1 at 2022-01-08 11:23:51.221571
+INFO:root:faces: 0 at 2022-01-08 11:23:51.811728
+INFO:root:faces: 1 at 2022-01-08 11:23:52.087063
+INFO:root:faces: 0 at 2022-01-08 11:23:52.347895
+INFO:root:faces: 1 at 2022-01-08 11:23:52.580333
+INFO:root:faces: 0 at 2022-01-08 11:23:52.845304
+INFO:root:faces: 1 at 2022-01-08 11:23:53.339702
+INFO:root:faces: 0 at 2022-01-08 11:23:54.411759
+INFO:root:faces: 1 at 2022-01-08 11:23:54.678906
+INFO:root:faces: 0 at 2022-01-08 11:23:54.926385
+INFO:root:faces: 1 at 2022-01-08 11:23:57.001581
+INFO:root:faces: 0 at 2022-01-08 11:23:57.976163
+INFO:root:faces: 1 at 2022-01-08 11:24:00.142997
+INFO:root:faces: 2 at 2022-01-08 11:24:00.636433
+INFO:root:faces: 0 at 2022-01-08 11:24:00.884560
+INFO:root:faces: 1 at 2022-01-08 11:24:03.586946
+INFO:root:faces: 0 at 2022-01-08 11:24:03.787680
+INFO:root:faces: 1 at 2022-01-08 11:24:04.296065
+INFO:root:faces: 0 at 2022-01-08 11:24:04.558774
+INFO:root:faces: 1 at 2022-01-08 11:24:09.363709
+INFO:root:faces: 0 at 2022-01-08 11:24:09.624515
+INFO:root:faces: 1 at 2022-01-08 11:24:10.246773
+INFO:root:faces: 0 at 2022-01-08 11:24:10.753711
+INFO:root:faces: 1 at 2022-01-08 11:24:17.297347
+INFO:root:faces: 0 at 2022-01-08 11:24:17.517797
+INFO:root:faces: 4 at 2022-01-08 11:24:18.530949
+INFO:root:faces: 1 at 2022-01-08 11:24:18.821073
+INFO:root:faces: 0 at 2022-01-08 11:24:19.115522
+INFO:root:faces: 1 at 2022-01-08 11:24:20.135695
+INFO:root:faces: 0 at 2022-01-08 11:24:20.342770
+INFO:root:faces: 1 at 2022-01-08 11:24:20.521328
+INFO:root:faces: 0 at 2022-01-08 11:24:20.776872
+INFO:root:faces: 3 at 2022-01-08 11:24:21.041740
+INFO:root:faces: 1 at 2022-01-08 11:24:21.291062
+INFO:root:faces: 0 at 2022-01-08 11:24:21.532855
+INFO:root:faces: 1 at 2022-01-08 11:24:21.741639
+INFO:root:faces: 2 at 2022-01-08 11:24:22.583996
+INFO:root:faces: 3 at 2022-01-08 11:24:22.783021
+INFO:root:faces: 1 at 2022-01-08 11:24:22.982089
+INFO:root:faces: 2 at 2022-01-08 11:24:23.182593
+INFO:root:faces: 1 at 2022-01-08 11:24:23.374672
+INFO:root:faces: 2 at 2022-01-08 11:24:23.580916
+INFO:root:faces: 1 at 2022-01-08 11:24:24.048285
+INFO:root:faces: 2 at 2022-01-08 11:24:29.066216
+INFO:root:faces: 1 at 2022-01-08 11:24:29.514409
+INFO:root:faces: 2 at 2022-01-08 11:24:29.946177
+INFO:root:faces: 1 at 2022-01-08 11:24:30.189794
+INFO:root:faces: 2 at 2022-01-08 11:24:32.427705
+INFO:root:faces: 1 at 2022-01-08 11:24:32.695093
+INFO:root:faces: 2 at 2022-01-08 11:24:33.714110
+INFO:root:faces: 1 at 2022-01-08 11:24:34.196363
+INFO:root:faces: 3 at 2022-01-08 11:24:34.628539
+INFO:root:faces: 1 at 2022-01-08 11:24:34.835737
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Bad Request: /api/user/login/
+INFO:root:faces: 1 at 2022-01-08 11:42:52.248176
+INFO:root:faces: 2 at 2022-01-08 11:42:58.259255
+INFO:root:faces: 0 at 2022-01-08 11:42:58.480551
+INFO:root:faces: 1 at 2022-01-08 11:42:59.611654
+INFO:root:faces: 0 at 2022-01-08 11:43:08.359345
+INFO:root:faces: 1 at 2022-01-08 11:43:09.800275
+INFO:root:faces: 0 at 2022-01-08 11:43:09.999787
+INFO:root:faces: 1 at 2022-01-08 11:43:10.186310
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+INFO:root:faces: 1 at 2022-01-08 11:44:12.208315
+INFO:root:faces: 0 at 2022-01-08 11:44:12.497564
+INFO:root:faces: 1 at 2022-01-08 11:44:12.739401
+INFO:root:faces: 2 at 2022-01-08 11:44:12.966958
+INFO:root:faces: 1 at 2022-01-08 11:44:13.516995
+INFO:root:faces: 0 at 2022-01-08 11:44:15.969089
+INFO:root:faces: 1 at 2022-01-08 11:44:17.095625
+INFO:root:faces: 2 at 2022-01-08 11:44:19.683417
+INFO:root:faces: 0 at 2022-01-08 11:44:19.927356
+INFO:root:faces: 1 at 2022-01-08 11:44:20.367952
+INFO:root:faces: 0 at 2022-01-08 11:44:20.641355
+INFO:root:faces: 1 at 2022-01-08 11:44:20.913573
+INFO:root:faces: 2 at 2022-01-08 11:44:21.460073
+INFO:root:faces: 1 at 2022-01-08 11:44:21.679941
+INFO:root:faces: 2 at 2022-01-08 11:44:23.229902
+INFO:root:faces: 1 at 2022-01-08 11:44:23.462039
+INFO:root:faces: 2 at 2022-01-08 11:44:23.933226
+INFO:root:faces: 1 at 2022-01-08 11:44:24.211936
+INFO:root:faces: 2 at 2022-01-08 11:44:24.438489
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+INFO:root:faces: 1 at 2022-01-08 11:51:15.735812
+INFO:root:faces: 0 at 2022-01-08 11:51:15.940858
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\factor_auth\FactorApp\api\views.py", line 56, in post
+    output = DeepFace.verify(img1_path="face_recognition_data/{}/{}.jpg".format(serializer.data['email'], serializer.data['email']),
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\DeepFace.py", line 168, in verify
+    img2_representation = represent(img_path = img2_path
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\DeepFace.py", line 748, in represent
+    img = functions.preprocess_face(img = img_path
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\commons\functions.py", line 169, in preprocess_face
+    img, region = detect_face(img = img, detector_backend = detector_backend, grayscale = grayscale, enforce_detection = enforce_detection, align = align)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\commons\functions.py", line 115, in detect_face
+    raise ValueError("Face could not be detected. Please confirm that the picture is a face photo or consider to set enforce_detection param to False.")
+ValueError: Face could not be detected. Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+INFO:root:faces: 1 at 2022-01-08 11:52:46.181193
+INFO:root:faces: 0 at 2022-01-08 11:52:46.637028
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Solly Jay\factor_auth\FactorApp\api\views.py", line 56, in post
+    output = DeepFace.verify(img1_path="face_recognition_data/{}/{}.jpg".format(serializer.data['email'], serializer.data['email']),
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\DeepFace.py", line 168, in verify
+    img2_representation = represent(img_path = img2_path
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\DeepFace.py", line 748, in represent
+    img = functions.preprocess_face(img = img_path
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\commons\functions.py", line 169, in preprocess_face
+    img, region = detect_face(img = img, detector_backend = detector_backend, grayscale = grayscale, enforce_detection = enforce_detection, align = align)
+  File "C:\Users\Solly Jay\anaconda3\envs\factor\lib\site-packages\deepface\commons\functions.py", line 115, in detect_face
+    raise ValueError("Face could not be detected. Please confirm that the picture is a face photo or consider to set enforce_detection param to False.")
+ValueError: Face could not be detected. Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+INFO:root:faces: 1 at 2022-01-08 11:58:06.602389
+INFO:root:faces: 2 at 2022-01-08 11:58:08.051279
+INFO:root:faces: 1 at 2022-01-08 11:58:08.341071
+INFO:root:faces: 0 at 2022-01-08 11:58:15.080549
+INFO:root:faces: 1 at 2022-01-08 11:58:15.341273
+INFO:root:faces: 0 at 2022-01-08 11:58:16.556939
+INFO:root:faces: 1 at 2022-01-08 11:58:18.642833
+INFO:root:faces: 0 at 2022-01-08 11:58:19.316861
+INFO:root:faces: 1 at 2022-01-08 11:58:20.152104
+INFO:root:faces: 0 at 2022-01-08 11:58:20.409200
+INFO:root:faces: 1 at 2022-01-08 11:58:20.884624
+INFO:root:faces: 0 at 2022-01-08 11:58:21.054958
+INFO:root:faces: 1 at 2022-01-08 11:58:21.273843
+INFO:root:faces: 0 at 2022-01-08 11:58:21.423547
+INFO:root:faces: 1 at 2022-01-08 11:58:23.030151
+INFO:root:faces: 0 at 2022-01-08 11:58:23.536329
+INFO:root:faces: 2 at 2022-01-08 11:58:23.716056
+INFO:root:faces: 1 at 2022-01-08 11:58:23.944919
+INFO:root:faces: 0 at 2022-01-08 11:58:25.713634
+INFO:root:faces: 1 at 2022-01-08 11:58:27.173853
+INFO:root:faces: 2 at 2022-01-08 11:58:28.528178
+INFO:root:faces: 1 at 2022-01-08 11:58:28.741313
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+INFO:root:faces: 1 at 2022-01-08 12:00:29.699089
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+INFO:root:faces: 2 at 2022-06-01 14:10:30.656017
+INFO:root:faces: 1 at 2022-06-01 14:10:30.876117
+INFO:root:faces: 2 at 2022-06-01 14:10:32.935459
+INFO:root:faces: 1 at 2022-06-01 14:10:33.005822
+INFO:root:faces: 2 at 2022-06-01 14:10:33.320325
+INFO:root:faces: 1 at 2022-06-01 14:10:33.395711
+INFO:root:faces: 2 at 2022-06-01 14:10:33.635769
+INFO:root:faces: 1 at 2022-06-01 14:10:33.975689
+INFO:root:faces: 2 at 2022-06-01 14:10:34.055452
+INFO:root:faces: 1 at 2022-06-01 14:10:34.120814
+INFO:root:faces: 2 at 2022-06-01 14:10:34.205380
+INFO:root:faces: 1 at 2022-06-01 14:10:34.295647
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\USER\factor_auth\FactorApp\api\views.py", line 54, in post
+    recognized = Recognizer(detail)
+  File "C:\Users\USER\factor_auth\FactorApp\recognizer.py", line 98, in Recognizer
+    known_img = os.path.join(basedir, f"face_recognition_data/{details['email']}/register/{details['email'].jpg}")
+AttributeError: 'str' object has no attribute 'jpg'
+INFO:django.utils.autoreload:C:\Users\USER\factor_auth\FactorApp\recognizer.py changed, reloading.
+INFO:root:faces: 1 at 2022-06-01 14:14:34.733863
+INFO:root:faces: 0 at 2022-06-01 14:14:35.193798
+INFO:root:faces: 1 at 2022-06-01 14:14:35.264366
+INFO:root:faces: 0 at 2022-06-01 14:14:35.423467
+INFO:root:faces: 1 at 2022-06-01 14:14:35.503389
+INFO:root:faces: 0 at 2022-06-01 14:14:35.583373
+INFO:root:faces: 1 at 2022-06-01 14:14:35.723351
+INFO:root:faces: 0 at 2022-06-01 14:14:35.863654
+INFO:root:faces: 1 at 2022-06-01 14:14:35.933731
+INFO:root:faces: 0 at 2022-06-01 14:14:36.003530
+INFO:root:faces: 1 at 2022-06-01 14:14:36.384116
+INFO:root:faces: 0 at 2022-06-01 14:14:36.924115
+INFO:root:faces: 1 at 2022-06-01 14:14:37.424181
+INFO:root:faces: 2 at 2022-06-01 14:14:38.348788
+INFO:root:faces: 1 at 2022-06-01 14:14:38.463932
+INFO:root:faces: 2 at 2022-06-01 14:14:38.544034
+INFO:root:faces: 1 at 2022-06-01 14:14:38.913987
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\USER\factor_auth\FactorApp\api\views.py", line 54, in post
+    recognized = Recognizer(detail)
+  File "C:\Users\USER\factor_auth\FactorApp\recognizer.py", line 101, in Recognizer
+    known_image = face_recognition.load_image_file(known_img)
+  File "C:\Users\USER\auth\lib\site-packages\face_recognition\api.py", line 86, in load_image_file
+    im = PIL.Image.open(file)
+  File "C:\Users\USER\auth\lib\site-packages\PIL\Image.py", line 2968, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\USER\\factor_auth\\FactorApp\\face_recognition_data/abahenochjoseph@yahoo.com/register/abahenochjoseph@yahoo.com.jpg'
+INFO:django.utils.autoreload:C:\Users\USER\factor_auth\FactorApp\recognizer.py changed, reloading.
+INFO:root:faces: 1 at 2022-06-01 14:20:54.161652
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\USER\factor_auth\FactorApp\api\views.py", line 54, in post
+    recognized = Recognizer(detail)
+  File "C:\Users\USER\factor_auth\FactorApp\recognizer.py", line 101, in Recognizer
+    known_image = face_recognition.load_image_file(known_img)
+  File "C:\Users\USER\auth\lib\site-packages\face_recognition\api.py", line 86, in load_image_file
+    im = PIL.Image.open(file)
+  File "C:\Users\USER\auth\lib\site-packages\PIL\Image.py", line 2968, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\USER\\factor_auth\\FactorApp\\face_recognition_data\\abahenochjoseph@yahoo.com\\register\\abahenochjoseph@yahoo.com.jpg'
+INFO:root:faces: 1 at 2022-06-01 14:22:38.163040
+INFO:root:faces: 2 at 2022-06-01 14:22:41.705865
+INFO:root:faces: 1 at 2022-06-01 14:22:41.861063
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\USER\factor_auth\FactorApp\api\views.py", line 54, in post
+    recognized = Recognizer(detail)
+  File "C:\Users\USER\factor_auth\FactorApp\recognizer.py", line 101, in Recognizer
+    known_image = face_recognition.load_image_file(known_img)
+  File "C:\Users\USER\auth\lib\site-packages\face_recognition\api.py", line 86, in load_image_file
+    im = PIL.Image.open(file)
+  File "C:\Users\USER\auth\lib\site-packages\PIL\Image.py", line 2968, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\USER\\factor_auth\\FactorApp\\face_recognition_data\\abahenochjoseph@yahoo.com\\register\\abahenochjoseph@yahoo.com.jpg'
+INFO:django.utils.autoreload:C:\Users\USER\factor_auth\FactorApp\recognizer.py changed, reloading.
+INFO:root:faces: 1 at 2022-06-01 14:31:07.939774
+INFO:root:faces: 0 at 2022-06-01 14:31:07.997979
+INFO:root:faces: 1 at 2022-06-01 14:31:08.578193
+INFO:root:faces: 0 at 2022-06-01 14:31:08.987912
+INFO:root:faces: 1 at 2022-06-01 14:31:09.058064
+INFO:root:faces: 2 at 2022-06-01 14:31:09.550306
+INFO:root:faces: 1 at 2022-06-01 14:31:09.628222
+INFO:root:faces: 0 at 2022-06-01 14:31:09.773024
+INFO:root:faces: 1 at 2022-06-01 14:31:09.968289
+INFO:root:faces: 2 at 2022-06-01 14:31:12.750332
+INFO:root:faces: 1 at 2022-06-01 14:31:12.817831
+INFO:root:faces: 2 at 2022-06-01 14:31:12.980024
+INFO:root:faces: 1 at 2022-06-01 14:31:13.062929
+INFO:root:faces: 2 at 2022-06-01 14:31:29.567547
+INFO:root:faces: 1 at 2022-06-01 14:31:29.667678
+INFO:root:faces: 2 at 2022-06-01 14:31:29.877574
+INFO:root:faces: 1 at 2022-06-01 14:31:29.957968
+INFO:root:faces: 2 at 2022-06-01 14:31:32.307757
+INFO:root:faces: 1 at 2022-06-01 14:31:32.568346
+INFO:root:faces: 2 at 2022-06-01 14:31:32.652949
+INFO:root:faces: 1 at 2022-06-01 14:31:32.750149
+INFO:root:faces: 2 at 2022-06-01 14:31:53.707472
+INFO:root:faces: 1 at 2022-06-01 14:31:53.792343
+INFO:root:faces: 0 at 2022-06-01 14:31:53.857653
+INFO:root:faces: 1 at 2022-06-01 14:31:54.947607
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /img/video-thumb_.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /images/slider-left-dec.png
+WARNING:django.request:Not Found: /images/slider-left-dec.png
+WARNING:django.request:Not Found: /images/slider-left-dec.png
+INFO:root:faces: 1 at 2022-06-01 14:35:11.221152
+INFO:root:faces: 0 at 2022-06-01 14:35:12.580375
+INFO:root:faces: 1 at 2022-06-01 14:35:12.730400
+INFO:root:faces: 2 at 2022-06-01 14:35:16.211082
+INFO:root:faces: 3 at 2022-06-01 14:35:16.311201
+INFO:root:faces: 1 at 2022-06-01 14:35:16.385923
+INFO:root:faces: 2 at 2022-06-01 14:35:16.760924
+INFO:root:faces: 1 at 2022-06-01 14:35:16.836039
+INFO:root:faces: 2 at 2022-06-01 14:35:17.935549
+INFO:root:faces: 1 at 2022-06-01 14:35:18.302959
+INFO:root:faces: 2 at 2022-06-01 14:35:18.390317
+INFO:root:faces: 1 at 2022-06-01 14:35:18.470352
+INFO:root:faces: 2 at 2022-06-01 14:35:18.800797
+INFO:root:faces: 1 at 2022-06-01 14:35:18.900465
+INFO:root:faces: 2 at 2022-06-01 14:35:19.255469
+INFO:root:faces: 1 at 2022-06-01 14:35:19.425853
+INFO:root:faces: 2 at 2022-06-01 14:35:19.500943
+INFO:root:faces: 3 at 2022-06-01 14:35:19.590648
+INFO:root:faces: 1 at 2022-06-01 14:35:19.685729
+INFO:root:faces: 0 at 2022-06-01 14:35:21.585776
+INFO:root:faces: 1 at 2022-06-01 14:35:21.645701
+INFO:root:faces: 0 at 2022-06-01 14:35:21.723478
+INFO:root:faces: 1 at 2022-06-01 14:35:21.940511
+INFO:root:faces: 0 at 2022-06-01 14:35:22.465975
+INFO:root:faces: 1 at 2022-06-01 14:35:22.994145
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /img/video-thumb_.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /images/slider-left-dec.png
+INFO:root:faces: 1 at 2022-06-01 14:39:38.104362
+INFO:root:faces: 0 at 2022-06-01 14:39:39.309144
+INFO:root:faces: 1 at 2022-06-01 14:39:39.943374
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /img/video-thumb_.png
+INFO:django.utils.autoreload:C:\Users\USER\factor_auth\FactorApp\recognizer.py changed, reloading.
+INFO:root:faces: 1 at 2022-06-01 14:43:58.342544
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /img/video-thumb_.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+INFO:django.utils.autoreload:C:\Users\USER\factor_auth\FactorApp\recognizer.py changed, reloading.
+INFO:root:faces: 1 at 2022-06-01 15:04:08.010257
+INFO:root:faces: 2 at 2022-06-01 15:04:10.380306
+INFO:root:faces: 1 at 2022-06-01 15:04:10.600112
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /img/video-thumb_.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+INFO:root:faces: 1 at 2022-06-14 13:42:47.634728
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\USER\factor_auth\FactorApp\api\views.py", line 54, in post
+    recognized = Recognizer(detail)
+  File "C:\Users\USER\factor_auth\FactorApp\recognizer.py", line 129, in Recognizer
+    match = DeepFace.verify(known_img, unknown_img, model_name='ArcFace')
+  File "C:\Users\USER\auth\lib\site-packages\deepface\DeepFace.py", line 163, in verify
+    img1_representation = represent(img_path = img1_path
+  File "C:\Users\USER\auth\lib\site-packages\deepface\DeepFace.py", line 754, in represent
+    img = functions.preprocess_face(img = img_path
+  File "C:\Users\USER\auth\lib\site-packages\deepface\commons\functions.py", line 175, in preprocess_face
+    img = load_image(img)
+  File "C:\Users\USER\auth\lib\site-packages\deepface\commons\functions.py", line 90, in load_image
+    raise ValueError("Confirm that ",img," exists")
+ValueError: ('Confirm that ', 'C:\\Users\\USER\\factor_auth\\face_recognition_data\\incrediblechamp1@gmail.com\\register\\incrediblechamp1@gmail.com.jpg', ' exists')
+INFO:root:faces: 1 at 2022-06-14 13:51:32.676303
+INFO:root:faces: 0 at 2022-06-14 13:51:37.139151
+INFO:root:faces: 1 at 2022-06-14 13:51:37.263638
+INFO:root:faces: 3 at 2022-06-14 13:51:37.415751
+INFO:root:faces: 1 at 2022-06-14 13:51:37.557995
+INFO:root:faces: 3 at 2022-06-14 13:51:37.691337
+INFO:root:faces: 1 at 2022-06-14 13:51:37.813593
+INFO:root:faces: 2 at 2022-06-14 13:51:37.942672
+INFO:root:faces: 1 at 2022-06-14 13:51:38.065659
+INFO:root:faces: 2 at 2022-06-14 13:51:41.330048
+INFO:root:faces: 1 at 2022-06-14 13:51:41.443790
+INFO:root:faces: 2 at 2022-06-14 13:51:41.535158
+INFO:root:faces: 1 at 2022-06-14 13:51:41.638285
+INFO:root:faces: 2 at 2022-06-14 13:51:41.772990
+INFO:root:faces: 1 at 2022-06-14 13:51:41.891856
+INFO:root:faces: 2 at 2022-06-14 13:51:42.417325
+INFO:root:faces: 1 at 2022-06-14 13:51:42.561188
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\USER\factor_auth\FactorApp\api\views.py", line 57, in post
+    auth_user = authenticate(serializer.data['email'], serializer.data['password'])
+  File "C:\Users\USER\auth\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+TypeError: authenticate() takes from 0 to 1 positional arguments but 2 were given
+INFO:django.utils.autoreload:C:\Users\USER\factor_auth\FactorApp\api\views.py changed, reloading.
+INFO:root:faces: 1 at 2022-06-14 14:02:04.056813
+INFO:root:faces: 0 at 2022-06-14 14:02:04.203583
+INFO:root:faces: 1 at 2022-06-14 14:02:04.791135
+INFO:root:faces: 0 at 2022-06-14 14:02:05.179390
+INFO:root:faces: 1 at 2022-06-14 14:02:05.333328
+INFO:root:faces: 2 at 2022-06-14 14:02:08.274257
+INFO:root:faces: 1 at 2022-06-14 14:02:08.405571
+INFO:root:faces: 2 at 2022-06-14 14:02:08.558999
+INFO:root:faces: 1 at 2022-06-14 14:02:08.674502
+INFO:root:faces: 2 at 2022-06-14 14:02:09.164774
+INFO:root:faces: 1 at 2022-06-14 14:02:09.531821
+INFO:root:faces: 0 at 2022-06-14 14:02:12.072642
+INFO:root:faces: 1 at 2022-06-14 14:02:12.698249
+INFO:root:faces: 2 at 2022-06-14 14:02:12.813729
+INFO:root:faces: 1 at 2022-06-14 14:02:12.929421
+INFO:root:faces: 2 at 2022-06-14 14:02:15.053875
+INFO:root:faces: 1 at 2022-06-14 14:02:15.180989
+INFO:root:faces: 2 at 2022-06-14 14:02:15.780376
+INFO:root:faces: 1 at 2022-06-14 14:02:15.880541
+INFO:root:faces: 2 at 2022-06-14 14:02:16.973896
+INFO:root:faces: 1 at 2022-06-14 14:02:17.205379
+INFO:root:faces: 2 at 2022-06-14 14:02:18.169592
+INFO:root:faces: 1 at 2022-06-14 14:02:18.401020
+INFO:root:faces: 2 at 2022-06-14 14:02:19.670888
+INFO:root:faces: 1 at 2022-06-14 14:02:19.786501
+INFO:root:faces: 2 at 2022-06-14 14:02:20.923498
+INFO:root:faces: 1 at 2022-06-14 14:02:21.039112
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /img/video-thumb_.png
+INFO:django.utils.autoreload:C:\Users\USER\factor_auth\FactorApp\api\views.py changed, reloading.
+INFO:root:faces: 1 at 2022-06-14 14:39:24.909671
+INFO:root:faces: 0 at 2022-06-14 14:39:25.092276
+INFO:root:faces: 1 at 2022-06-14 14:39:25.647620
+INFO:root:faces: 0 at 2022-06-14 14:39:25.747498
+INFO:root:faces: 1 at 2022-06-14 14:39:29.943291
+INFO:root:faces: 0 at 2022-06-14 14:39:30.127545
+INFO:root:faces: 1 at 2022-06-14 14:39:30.968622
+INFO:root:faces: 0 at 2022-06-14 14:39:31.068637
+INFO:root:faces: 1 at 2022-06-14 14:39:31.252981
+INFO:root:faces: 0 at 2022-06-14 14:39:31.445416
+INFO:root:faces: 1 at 2022-06-14 14:39:31.706359
+INFO:root:faces: 0 at 2022-06-14 14:39:31.790770
+INFO:root:faces: 1 at 2022-06-14 14:39:31.978153
+INFO:root:faces: 0 at 2022-06-14 14:39:32.068885
+INFO:root:faces: 1 at 2022-06-14 14:39:32.268726
+INFO:root:faces: 0 at 2022-06-14 14:39:32.353003
+INFO:root:faces: 1 at 2022-06-14 14:39:33.268029
+INFO:root:faces: 0 at 2022-06-14 14:39:33.352417
+INFO:root:faces: 1 at 2022-06-14 14:39:33.552680
+INFO:root:faces: 0 at 2022-06-14 14:39:33.668469
+INFO:root:faces: 1 at 2022-06-14 14:39:37.238511
+INFO:root:faces: 0 at 2022-06-14 14:39:37.325418
+INFO:root:faces: 1 at 2022-06-14 14:39:38.030748
+INFO:root:faces: 0 at 2022-06-14 14:39:38.124024
+INFO:root:faces: 1 at 2022-06-14 14:39:38.285401
+INFO:root:faces: 0 at 2022-06-14 14:39:38.369800
+INFO:root:faces: 1 at 2022-06-14 14:39:39.974053
+INFO:root:faces: 0 at 2022-06-14 14:39:40.058334
+INFO:root:faces: 1 at 2022-06-14 14:39:40.358311
+INFO:root:faces: 0 at 2022-06-14 14:39:40.458327
+INFO:root:faces: 1 at 2022-06-14 14:39:41.010697
+INFO:root:faces: 0 at 2022-06-14 14:39:41.165939
+INFO:root:faces: 1 at 2022-06-14 14:39:41.314138
+INFO:root:faces: 0 at 2022-06-14 14:39:41.416687
+INFO:root:faces: 1 at 2022-06-14 14:39:41.516995
+INFO:root:faces: 0 at 2022-06-14 14:39:41.623089
+INFO:root:faces: 1 at 2022-06-14 14:39:43.422922
+INFO:root:faces: 0 at 2022-06-14 14:39:43.523945
+INFO:root:faces: 1 at 2022-06-14 14:39:43.935261
+INFO:root:faces: 0 at 2022-06-14 14:39:44.035985
+INFO:root:faces: 1 at 2022-06-14 14:39:44.162904
+INFO:root:faces: 2 at 2022-06-14 14:39:44.292291
+INFO:root:faces: 0 at 2022-06-14 14:39:44.378851
+INFO:root:faces: 1 at 2022-06-14 14:39:45.010866
+INFO:root:faces: 0 at 2022-06-14 14:39:45.094534
+INFO:root:faces: 1 at 2022-06-14 14:39:45.270271
+INFO:root:faces: 0 at 2022-06-14 14:39:45.470473
+INFO:root:faces: 1 at 2022-06-14 14:39:47.928089
+INFO:root:faces: 0 at 2022-06-14 14:39:48.010801
+INFO:root:faces: 1 at 2022-06-14 14:39:48.189412
+INFO:root:faces: 0 at 2022-06-14 14:39:48.300011
+INFO:root:faces: 1 at 2022-06-14 14:39:50.703851
+INFO:root:faces: 0 at 2022-06-14 14:39:50.794549
+INFO:root:faces: 1 at 2022-06-14 14:39:52.460248
+INFO:root:faces: 0 at 2022-06-14 14:39:52.614276
+INFO:root:faces: 1 at 2022-06-14 14:39:54.249534
+INFO:root:faces: 0 at 2022-06-14 14:39:54.552671
+INFO:root:faces: 1 at 2022-06-14 14:39:56.800527
+INFO:root:faces: 0 at 2022-06-14 14:39:56.979007
+INFO:root:faces: 1 at 2022-06-14 14:39:57.615146
+INFO:root:faces: 0 at 2022-06-14 14:39:57.703491
+INFO:root:faces: 1 at 2022-06-14 14:39:58.697783
+INFO:root:faces: 0 at 2022-06-14 14:39:58.775384
+INFO:root:faces: 1 at 2022-06-14 14:39:59.423214
+INFO:root:faces: 0 at 2022-06-14 14:39:59.622467
+INFO:root:faces: 1 at 2022-06-14 14:39:59.868957
+INFO:root:faces: 0 at 2022-06-14 14:40:00.066949
+INFO:root:faces: 1 at 2022-06-14 14:40:00.414570
+INFO:root:faces: 0 at 2022-06-14 14:40:00.538962
+INFO:root:faces: 1 at 2022-06-14 14:40:00.936823
+INFO:root:faces: 0 at 2022-06-14 14:40:01.053194
+INFO:root:faces: 1 at 2022-06-14 14:40:02.428177
+INFO:root:faces: 0 at 2022-06-14 14:40:02.546799
+INFO:root:faces: 1 at 2022-06-14 14:40:07.678919
+INFO:root:faces: 0 at 2022-06-14 14:40:07.757216
+INFO:root:faces: 1 at 2022-06-14 14:40:07.926069
+INFO:root:faces: 0 at 2022-06-14 14:40:08.010474
+INFO:root:faces: 1 at 2022-06-14 14:40:12.926459
+INFO:root:faces: 0 at 2022-06-14 14:40:13.026472
+INFO:root:faces: 1 at 2022-06-14 14:51:44.060481
+INFO:root:faces: 0 at 2022-06-14 14:51:44.145821
+INFO:root:faces: 1 at 2022-06-14 14:51:46.253436
+INFO:root:faces: 0 at 2022-06-14 14:51:46.314767
+INFO:root:faces: 1 at 2022-06-14 14:51:46.383799
+INFO:root:faces: 0 at 2022-06-14 14:51:46.464697
+INFO:root:faces: 1 at 2022-06-14 14:51:47.146840
+INFO:root:faces: 0 at 2022-06-14 14:51:47.348251
+INFO:root:faces: 1 at 2022-06-14 14:51:47.451314
+INFO:root:faces: 0 at 2022-06-14 14:51:47.547695
+INFO:root:faces: 2 at 2022-06-14 14:51:47.827565
+INFO:root:faces: 1 at 2022-06-14 14:51:48.037887
+INFO:root:faces: 0 at 2022-06-14 14:51:48.569093
+INFO:root:faces: 1 at 2022-06-14 14:51:49.077577
+INFO:root:faces: 0 at 2022-06-14 14:51:49.494289
+INFO:root:faces: 1 at 2022-06-14 14:51:50.094808
+INFO:root:faces: 0 at 2022-06-14 14:51:50.194672
+INFO:root:faces: 1 at 2022-06-14 14:51:50.441349
+INFO:root:faces: 0 at 2022-06-14 14:51:50.525775
+INFO:root:faces: 1 at 2022-06-14 14:51:50.610380
+INFO:root:faces: 0 at 2022-06-14 14:51:51.194658
+INFO:root:faces: 1 at 2022-06-14 14:51:51.310515
+INFO:root:faces: 0 at 2022-06-14 14:51:51.992575
+INFO:root:faces: 1 at 2022-06-14 14:51:52.361664
+INFO:root:faces: 0 at 2022-06-14 14:51:52.561689
+INFO:root:faces: 1 at 2022-06-14 14:51:52.661704
+INFO:root:faces: 0 at 2022-06-14 14:51:52.861573
+INFO:root:faces: 1 at 2022-06-14 14:51:54.265872
+INFO:root:faces: 0 at 2022-06-14 14:51:54.598600
+INFO:root:faces: 1 at 2022-06-14 14:51:55.482837
+INFO:root:faces: 0 at 2022-06-14 14:51:55.684792
+INFO:root:faces: 2 at 2022-06-14 14:51:56.425912
+INFO:root:faces: 1 at 2022-06-14 14:51:56.508399
+INFO:root:faces: 2 at 2022-06-14 14:51:56.599184
+INFO:root:faces: 1 at 2022-06-14 14:51:56.679679
+INFO:root:faces: 0 at 2022-06-14 14:51:56.840874
+INFO:root:faces: 2 at 2022-06-14 14:51:56.925507
+INFO:root:faces: 1 at 2022-06-14 14:51:57.009994
+INFO:root:faces: 0 at 2022-06-14 14:51:57.110682
+INFO:root:faces: 1 at 2022-06-14 14:51:57.211034
+INFO:root:faces: 0 at 2022-06-14 14:51:57.793094
+INFO:root:faces: 1 at 2022-06-14 14:51:59.203568
+INFO:root:faces: 0 at 2022-06-14 14:51:59.486238
+INFO:root:faces: 1 at 2022-06-14 14:51:59.633424
+WARNING:django.request:Bad Request: /api/user/login/
+INFO:root:faces: 1 at 2022-06-14 14:57:10.675707
+INFO:root:faces: 0 at 2022-06-14 14:57:10.757819
+INFO:root:faces: 1 at 2022-06-14 14:57:11.081436
+INFO:root:faces: 0 at 2022-06-14 14:57:11.161950
+INFO:root:faces: 1 at 2022-06-14 14:57:12.118958
+INFO:root:faces: 0 at 2022-06-14 14:57:12.199739
+INFO:root:faces: 1 at 2022-06-14 14:57:14.316036
+INFO:root:faces: 2 at 2022-06-14 14:57:14.670168
+INFO:root:faces: 1 at 2022-06-14 14:57:14.738985
+INFO:root:faces: 0 at 2022-06-14 14:57:17.921560
+INFO:root:faces: 1 at 2022-06-14 14:57:18.005989
+WARNING:django.request:Bad Request: /api/user/login/
+INFO:root:faces: 2 at 2022-06-14 15:01:02.300260
+INFO:root:faces: 1 at 2022-06-14 15:01:02.453795
+INFO:root:faces: 0 at 2022-06-14 15:01:03.117101
+INFO:root:faces: 1 at 2022-06-14 15:01:03.429932
+INFO:root:faces: 0 at 2022-06-14 15:01:04.130468
+INFO:root:faces: 1 at 2022-06-14 15:01:04.537531
+INFO:root:faces: 0 at 2022-06-14 15:01:04.634805
+INFO:root:faces: 1 at 2022-06-14 15:01:04.937293
+INFO:root:faces: 0 at 2022-06-14 15:01:05.012785
+INFO:root:faces: 2 at 2022-06-14 15:01:05.090564
+INFO:root:faces: 1 at 2022-06-14 15:01:05.448871
+INFO:root:faces: 0 at 2022-06-14 15:01:06.237261
+INFO:root:faces: 1 at 2022-06-14 15:01:06.321561
+INFO:root:faces: 0 at 2022-06-14 15:01:06.837755
+INFO:root:faces: 1 at 2022-06-14 15:01:06.938076
+INFO:root:faces: 0 at 2022-06-14 15:01:07.007072
+INFO:root:faces: 1 at 2022-06-14 15:01:07.241088
+WARNING:django.request:Bad Request: /api/user/login/
+INFO:root:faces: 1 at 2022-06-14 15:02:47.315932
+WARNING:django.request:Bad Request: /api/user/login/
+INFO:root:faces: 1 at 2022-06-14 15:04:59.139621
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /img/video-thumb_.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+INFO:root:faces: 1 at 2022-06-15 13:40:01.028359
+INFO:root:faces: 0 at 2022-06-15 13:40:01.922891
+INFO:root:faces: 1 at 2022-06-15 13:40:02.413443
+INFO:root:faces: 0 at 2022-06-15 13:40:02.782810
+INFO:root:faces: 1 at 2022-06-15 13:40:02.892840
+INFO:root:faces: 2 at 2022-06-15 13:40:03.008012
+INFO:root:faces: 1 at 2022-06-15 13:40:03.103069
+INFO:root:faces: 0 at 2022-06-15 13:40:03.218022
+INFO:root:faces: 1 at 2022-06-15 13:40:03.333176
+INFO:root:faces: 0 at 2022-06-15 13:40:03.535500
+INFO:root:faces: 1 at 2022-06-15 13:40:03.938187
+INFO:root:faces: 0 at 2022-06-15 13:40:05.148177
+INFO:root:faces: 1 at 2022-06-15 13:40:05.228928
+INFO:root:faces: 0 at 2022-06-15 13:40:09.457867
+INFO:root:faces: 1 at 2022-06-15 13:40:10.117843
+INFO:root:faces: 0 at 2022-06-15 13:40:10.183157
+INFO:root:faces: 1 at 2022-06-15 13:40:10.258264
+INFO:root:faces: 0 at 2022-06-15 13:40:10.327963
+INFO:root:faces: 2 at 2022-06-15 13:40:10.762723
+INFO:root:faces: 1 at 2022-06-15 13:40:10.838034
+INFO:root:faces: 0 at 2022-06-15 13:40:10.988065
+INFO:root:faces: 1 at 2022-06-15 13:40:11.132668
+INFO:root:faces: 0 at 2022-06-15 13:40:11.622728
+INFO:root:faces: 1 at 2022-06-15 13:40:11.692853
+INFO:root:faces: 0 at 2022-06-15 13:40:11.762935
+INFO:root:faces: 1 at 2022-06-15 13:40:11.832974
+INFO:root:faces: 0 at 2022-06-15 13:40:11.927865
+INFO:root:faces: 1 at 2022-06-15 13:40:12.007865
+INFO:root:faces: 0 at 2022-06-15 13:40:12.089993
+INFO:root:faces: 1 at 2022-06-15 13:40:12.158007
+INFO:root:faces: 0 at 2022-06-15 13:40:12.667629
+INFO:root:faces: 1 at 2022-06-15 13:40:12.743022
+INFO:root:faces: 0 at 2022-06-15 13:40:12.949342
+INFO:root:faces: 1 at 2022-06-15 13:40:13.027985
+INFO:root:faces: 0 at 2022-06-15 13:40:13.163143
+INFO:root:faces: 1 at 2022-06-15 13:40:13.357806
+INFO:root:faces: 0 at 2022-06-15 13:40:13.637802
+INFO:root:faces: 1 at 2022-06-15 13:40:13.718322
+INFO:root:faces: 0 at 2022-06-15 13:40:13.797967
+INFO:root:faces: 1 at 2022-06-15 13:40:13.888003
+INFO:root:faces: 0 at 2022-06-15 13:40:14.062889
+INFO:root:faces: 1 at 2022-06-15 13:40:14.233146
+INFO:root:faces: 0 at 2022-06-15 13:40:14.317872
+INFO:root:faces: 1 at 2022-06-15 13:40:14.507862
+INFO:root:faces: 0 at 2022-06-15 13:40:14.612927
+INFO:root:faces: 1 at 2022-06-15 13:40:14.718103
+INFO:root:faces: 0 at 2022-06-15 13:40:14.932820
+INFO:root:faces: 1 at 2022-06-15 13:40:15.883405
+INFO:root:faces: 0 at 2022-06-15 13:40:15.968327
+INFO:root:faces: 1 at 2022-06-15 13:40:16.213336
+INFO:root:faces: 0 at 2022-06-15 13:40:16.302980
+INFO:root:faces: 1 at 2022-06-15 13:40:16.937734
+INFO:root:faces: 0 at 2022-06-15 13:40:17.017615
+INFO:root:faces: 1 at 2022-06-15 13:40:20.187950
+INFO:root:faces: 0 at 2022-06-15 13:40:24.011966
+INFO:root:faces: 1 at 2022-06-15 13:40:24.301983
+INFO:root:faces: 0 at 2022-06-15 13:40:24.667581
+INFO:root:faces: 1 at 2022-06-15 13:40:24.882734
+INFO:root:faces: 0 at 2022-06-15 13:40:24.987217
+INFO:root:faces: 1 at 2022-06-15 13:40:25.557726
+INFO:root:faces: 0 at 2022-06-15 13:40:25.647697
+INFO:root:faces: 1 at 2022-06-15 13:40:25.782858
+INFO:root:faces: 0 at 2022-06-15 13:40:25.852948
+INFO:root:faces: 1 at 2022-06-15 13:40:25.987695
+INFO:root:faces: 0 at 2022-06-15 13:40:33.698629
+INFO:root:faces: 1 at 2022-06-15 13:40:35.182616
+INFO:root:faces: 0 at 2022-06-15 13:40:35.697393
+INFO:root:faces: 1 at 2022-06-15 13:40:36.727500
+INFO:root:faces: 0 at 2022-06-15 13:40:43.947511
+INFO:root:faces: 1 at 2022-06-15 13:40:44.027722
+INFO:root:faces: 0 at 2022-06-15 13:40:44.377720
+INFO:root:faces: 1 at 2022-06-15 13:40:44.489437
+INFO:root:faces: 0 at 2022-06-15 13:40:44.678013
+INFO:root:faces: 1 at 2022-06-15 13:40:44.767952
+INFO:root:faces: 0 at 2022-06-15 13:40:44.987739
+INFO:root:faces: 2 at 2022-06-15 13:40:45.062767
+INFO:root:faces: 1 at 2022-06-15 13:40:45.147695
+INFO:root:faces: 0 at 2022-06-15 13:40:46.477535
+INFO:root:faces: 1 at 2022-06-15 13:40:46.557936
+INFO:root:faces: 0 at 2022-06-15 13:40:46.797932
+INFO:root:faces: 1 at 2022-06-15 13:40:46.969588
+INFO:root:faces: 0 at 2022-06-15 13:40:47.042654
+INFO:root:faces: 1 at 2022-06-15 13:40:47.142618
+INFO:root:faces: 2 at 2022-06-15 13:40:49.004901
+INFO:root:faces: 1 at 2022-06-15 13:40:49.187988
+INFO:root:faces: 2 at 2022-06-15 13:40:50.909601
+INFO:root:faces: 1 at 2022-06-15 13:40:51.002622
+INFO:root:faces: 2 at 2022-06-15 13:40:51.187588
+INFO:root:faces: 1 at 2022-06-15 13:40:51.271535
+INFO:root:faces: 2 at 2022-06-15 13:40:51.637772
+INFO:root:faces: 1 at 2022-06-15 13:40:51.727949
+INFO:root:faces: 2 at 2022-06-15 13:40:52.745804
+INFO:root:faces: 1 at 2022-06-15 13:40:52.922850
+INFO:root:faces: 2 at 2022-06-15 13:40:54.447805
+INFO:root:faces: 1 at 2022-06-15 13:40:54.659726
+INFO:root:faces: 0 at 2022-06-15 13:40:56.793011
+INFO:root:faces: 1 at 2022-06-15 13:40:56.982927
+INFO:root:faces: 2 at 2022-06-15 13:40:57.152702
+INFO:root:faces: 1 at 2022-06-15 13:40:57.237417
+INFO:root:faces: 2 at 2022-06-15 13:40:57.792459
+INFO:root:faces: 1 at 2022-06-15 13:40:57.907899
+INFO:root:faces: 2 at 2022-06-15 13:40:58.287401
+INFO:root:faces: 1 at 2022-06-15 13:40:58.387340
+INFO:root:faces: 0 at 2022-06-15 13:41:16.547453
+INFO:root:faces: 1 at 2022-06-15 13:41:16.732395
+INFO:root:faces: 0 at 2022-06-15 13:41:16.817398
+INFO:root:faces: 1 at 2022-06-15 13:41:17.072443
+INFO:root:faces: 0 at 2022-06-15 13:41:17.282448
+INFO:root:faces: 1 at 2022-06-15 13:41:17.392356
+INFO:root:faces: 0 at 2022-06-15 13:41:17.482496
+INFO:root:faces: 1 at 2022-06-15 13:41:18.367707
+INFO:root:faces: 0 at 2022-06-15 13:41:18.437359
+INFO:root:faces: 1 at 2022-06-15 13:41:18.677723
+INFO:root:faces: 0 at 2022-06-15 13:41:18.827353
+INFO:root:faces: 1 at 2022-06-15 13:41:19.027558
+INFO:root:faces: 0 at 2022-06-15 13:41:19.117351
+INFO:root:faces: 1 at 2022-06-15 13:41:19.202453
+INFO:root:faces: 0 at 2022-06-15 13:41:19.292413
+INFO:root:faces: 1 at 2022-06-15 13:41:19.462175
+INFO:root:faces: 0 at 2022-06-15 13:41:19.617461
+INFO:root:faces: 1 at 2022-06-15 13:41:19.857427
+INFO:root:faces: 0 at 2022-06-15 13:41:19.937161
+INFO:root:faces: 1 at 2022-06-15 13:41:20.157436
+INFO:root:faces: 0 at 2022-06-15 13:41:20.307457
+INFO:root:faces: 1 at 2022-06-15 13:41:23.249512
+INFO:root:faces: 0 at 2022-06-15 13:41:24.382779
+INFO:root:faces: 1 at 2022-06-15 13:41:24.527713
+INFO:root:faces: 0 at 2022-06-15 13:41:24.822644
+INFO:root:faces: 1 at 2022-06-15 13:41:24.902404
+INFO:root:faces: 0 at 2022-06-15 13:41:27.392756
+INFO:root:faces: 1 at 2022-06-15 13:41:27.480323
+INFO:root:faces: 2 at 2022-06-15 13:41:41.687448
+INFO:root:faces: 1 at 2022-06-15 13:41:41.792190
+INFO:root:faces: 2 at 2022-06-15 13:41:41.897476
+INFO:root:faces: 1 at 2022-06-15 13:41:42.007599
+INFO:root:faces: 2 at 2022-06-15 13:41:42.437376
+INFO:root:faces: 1 at 2022-06-15 13:41:42.757385
+INFO:root:faces: 2 at 2022-06-15 13:41:42.962171
+INFO:root:faces: 1 at 2022-06-15 13:41:43.062341
+INFO:root:faces: 2 at 2022-06-15 13:41:44.137371
+INFO:root:faces: 1 at 2022-06-15 13:41:44.250261
+INFO:root:faces: 2 at 2022-06-15 13:41:44.427223
+INFO:root:faces: 1 at 2022-06-15 13:41:44.527512
+INFO:root:faces: 2 at 2022-06-15 13:41:44.717424
+INFO:root:faces: 1 at 2022-06-15 13:41:44.802364
+INFO:root:faces: 2 at 2022-06-15 13:41:44.897522
+INFO:root:faces: 1 at 2022-06-15 13:41:44.992518
+INFO:root:faces: 2 at 2022-06-15 13:41:45.107585
+INFO:root:faces: 1 at 2022-06-15 13:41:45.217345
+INFO:root:faces: 2 at 2022-06-15 13:41:45.742259
+INFO:root:faces: 1 at 2022-06-15 13:41:45.842108
+INFO:root:faces: 2 at 2022-06-15 13:41:55.397419
+INFO:root:faces: 1 at 2022-06-15 13:41:55.522503
+INFO:root:faces: 2 at 2022-06-15 13:41:56.122546
+INFO:root:faces: 1 at 2022-06-15 13:41:56.409771
+INFO:root:faces: 2 at 2022-06-15 13:41:59.991214
+INFO:root:faces: 1 at 2022-06-15 13:42:00.091131
+INFO:root:faces: 2 at 2022-06-15 13:42:00.320670
+INFO:root:faces: 1 at 2022-06-15 13:42:00.502117
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /img/video-thumb_.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /profile/vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /profile/vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /profile/vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /profile/vendor/bootstrap/css/bootstrap.min.css
+ERROR:django.request:Internal Server Error: /profile/incrediblechamp1@gmail.com
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\USER\auth\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\USER\auth\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\USER\auth\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 310: 'endblock', expected 'endif'. Did you forget to register or load this tag?
+WARNING:django.request:Not Found: /favicon.ico
+WARNING:django.request:Not Found: /profile/vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+INFO:root:faces: 1 at 2022-06-15 14:08:02.355904
+INFO:root:faces: 0 at 2022-06-15 14:08:02.445927
+INFO:root:faces: 1 at 2022-06-15 14:08:03.505800
+INFO:root:faces: 2 at 2022-06-15 14:08:04.026000
+INFO:root:faces: 1 at 2022-06-15 14:08:04.146212
+INFO:root:faces: 2 at 2022-06-15 14:08:04.726223
+INFO:root:faces: 1 at 2022-06-15 14:08:05.031215
+WARNING:django.request:Bad Request: /api/user/login/
+INFO:root:faces: 1 at 2022-10-25 10:18:59.405956
+INFO:root:faces: 2 at 2022-10-25 10:19:01.534011
+INFO:root:faces: 1 at 2022-10-25 10:19:02.245918
+INFO:root:faces: 2 at 2022-10-25 10:19:02.705633
+INFO:root:faces: 1 at 2022-10-25 10:19:03.005451
+INFO:root:faces: 2 at 2022-10-25 10:19:03.107385
+INFO:root:faces: 1 at 2022-10-25 10:19:03.648051
+INFO:root:faces: 2 at 2022-10-25 10:19:03.776970
+INFO:root:faces: 1 at 2022-10-25 10:19:04.762361
+INFO:root:faces: 0 at 2022-10-25 10:19:04.959582
+INFO:root:faces: 1 at 2022-10-25 10:19:05.044531
+INFO:root:faces: 0 at 2022-10-25 10:19:05.146467
+INFO:root:faces: 1 at 2022-10-25 10:19:06.966341
+INFO:root:faces: 0 at 2022-10-25 10:19:07.076273
+INFO:root:faces: 1 at 2022-10-25 10:19:07.949733
+INFO:root:faces: 0 at 2022-10-25 10:19:08.045674
+INFO:root:faces: 1 at 2022-10-25 10:19:08.141241
+INFO:root:faces: 0 at 2022-10-25 10:19:08.242179
+INFO:root:faces: 1 at 2022-10-25 10:19:08.727878
+INFO:root:faces: 0 at 2022-10-25 10:19:08.880784
+INFO:root:faces: 2 at 2022-10-25 10:19:10.428827
+INFO:root:faces: 1 at 2022-10-25 10:19:10.614712
+INFO:root:faces: 0 at 2022-10-25 10:19:10.784607
+INFO:root:faces: 1 at 2022-10-25 10:19:10.949505
+INFO:root:faces: 0 at 2022-10-25 10:19:11.104944
+INFO:root:faces: 1 at 2022-10-25 10:19:11.595728
+INFO:root:faces: 0 at 2022-10-25 10:19:11.758376
+INFO:root:faces: 1 at 2022-10-25 10:19:13.444447
+INFO:root:faces: 0 at 2022-10-25 10:19:13.616340
+INFO:root:faces: 1 at 2022-10-25 10:19:15.593664
+INFO:root:faces: 2 at 2022-10-25 10:19:15.726582
+INFO:root:faces: 1 at 2022-10-25 10:19:15.868386
+INFO:root:faces: 0 at 2022-10-25 10:19:16.277206
+INFO:root:faces: 1 at 2022-10-25 10:19:16.902819
+INFO:root:faces: 2 at 2022-10-25 10:19:17.329554
+INFO:root:faces: 1 at 2022-10-25 10:19:17.480670
+INFO:root:faces: 0 at 2022-10-25 10:19:18.041154
+INFO:root:faces: 1 at 2022-10-25 10:19:18.203055
+INFO:root:faces: 0 at 2022-10-25 10:19:18.539847
+INFO:root:faces: 1 at 2022-10-25 10:19:18.982575
+INFO:root:faces: 0 at 2022-10-25 10:19:19.126483
+INFO:root:faces: 1 at 2022-10-25 10:19:19.557218
+INFO:root:faces: 0 at 2022-10-25 10:19:19.723115
+INFO:root:faces: 1 at 2022-10-25 10:19:20.167839
+INFO:root:faces: 0 at 2022-10-25 10:19:20.307329
+INFO:root:faces: 1 at 2022-10-25 10:19:22.250694
+INFO:root:faces: 0 at 2022-10-25 10:19:22.378614
+INFO:root:faces: 1 at 2022-10-25 10:19:26.821010
+INFO:root:faces: 0 at 2022-10-25 10:19:26.928944
+INFO:root:faces: 1 at 2022-10-25 10:19:27.192782
+INFO:root:faces: 2 at 2022-10-25 10:19:27.475606
+INFO:root:faces: 1 at 2022-10-25 10:19:27.618518
+INFO:root:faces: 2 at 2022-10-25 10:19:30.608815
+INFO:root:faces: 1 at 2022-10-25 10:19:32.483219
+INFO:root:faces: 0 at 2022-10-25 10:19:32.728924
+INFO:root:faces: 1 at 2022-10-25 10:19:33.339564
+INFO:root:faces: 0 at 2022-10-25 10:19:35.137673
+INFO:root:faces: 1 at 2022-10-25 10:19:35.261595
+INFO:root:faces: 0 at 2022-10-25 10:19:35.859571
+INFO:root:faces: 1 at 2022-10-25 10:19:37.012043
+INFO:root:faces: 2 at 2022-10-25 10:20:19.096412
+INFO:root:faces: 3 at 2022-10-25 10:20:20.011848
+INFO:root:faces: 2 at 2022-10-25 10:20:20.862321
+INFO:root:faces: 1 at 2022-10-25 10:20:22.454335
+INFO:root:faces: 2 at 2022-10-25 10:20:22.594914
+INFO:root:faces: 1 at 2022-10-25 10:20:22.723833
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\USER\factor_auth\FactorApp\api\views.py", line 62, in post
+    recognized = Recognizer(detail)
+  File "C:\Users\USER\factor_auth\FactorApp\recognizer.py", line 131, in Recognizer
+    match = DeepFace.verify(known_img, unknown_img, model_name='ArcFace')
+  File "C:\Users\USER\auth\lib\site-packages\deepface\DeepFace.py", line 163, in verify
+    img1_representation = represent(img_path = img1_path
+  File "C:\Users\USER\auth\lib\site-packages\deepface\DeepFace.py", line 754, in represent
+    img = functions.preprocess_face(img = img_path
+  File "C:\Users\USER\auth\lib\site-packages\deepface\commons\functions.py", line 178, in preprocess_face
+    img, region = detect_face(img = img, detector_backend = detector_backend, grayscale = grayscale, enforce_detection = enforce_detection, align = align)
+  File "C:\Users\USER\auth\lib\site-packages\deepface\commons\functions.py", line 124, in detect_face
+    raise ValueError("Face could not be detected. Please confirm that the picture is a face photo or consider to set enforce_detection param to False.")
+ValueError: Face could not be detected. Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+INFO:root:faces: 1 at 2023-01-13 16:33:12.879146
+INFO:root:faces: 0 at 2023-01-13 16:33:13.117997
+INFO:root:faces: 1 at 2023-01-13 16:33:15.178357
+INFO:root:faces: 0 at 2023-01-13 16:33:15.371186
+INFO:root:faces: 1 at 2023-01-13 16:33:18.330357
+INFO:root:faces: 0 at 2023-01-13 16:33:18.422355
+INFO:root:faces: 1 at 2023-01-13 16:33:18.810116
+INFO:root:faces: 0 at 2023-01-13 16:33:18.985007
+INFO:root:faces: 1 at 2023-01-13 16:33:19.851631
+INFO:root:faces: 2 at 2023-01-13 16:33:19.951570
+INFO:root:faces: 0 at 2023-01-13 16:33:20.059502
+INFO:root:faces: 1 at 2023-01-13 16:33:21.065885
+INFO:root:faces: 0 at 2023-01-13 16:33:21.346356
+INFO:root:faces: 1 at 2023-01-13 16:33:22.186714
+INFO:root:faces: 0 at 2023-01-13 16:33:22.445346
+INFO:root:faces: 1 at 2023-01-13 16:33:22.519997
+INFO:root:faces: 0 at 2023-01-13 16:33:22.609101
+INFO:root:faces: 1 at 2023-01-13 16:33:24.229450
+INFO:root:faces: 0 at 2023-01-13 16:33:24.423331
+INFO:root:faces: 1 at 2023-01-13 16:33:24.602220
+INFO:root:faces: 0 at 2023-01-13 16:33:24.687167
+INFO:root:faces: 1 at 2023-01-13 16:33:24.790104
+INFO:root:faces: 2 at 2023-01-13 16:33:24.999867
+INFO:root:faces: 0 at 2023-01-13 16:33:25.270717
+INFO:root:faces: 1 at 2023-01-13 16:33:25.652589
+INFO:root:faces: 2 at 2023-01-13 16:33:25.742533
+INFO:root:faces: 0 at 2023-01-13 16:33:25.926015
+INFO:root:faces: 1 at 2023-01-13 16:33:26.188254
+INFO:root:faces: 2 at 2023-01-13 16:33:26.270476
+INFO:root:faces: 1 at 2023-01-13 16:33:26.449387
+INFO:root:faces: 2 at 2023-01-13 16:33:26.829198
+INFO:root:faces: 0 at 2023-01-13 16:33:27.182979
+INFO:root:faces: 1 at 2023-01-13 16:33:30.453941
+INFO:root:faces: 0 at 2023-01-13 16:33:30.545725
+INFO:root:faces: 1 at 2023-01-13 16:33:30.830441
+INFO:root:faces: 0 at 2023-01-13 16:33:31.066296
+INFO:root:faces: 1 at 2023-01-13 16:33:31.880408
+INFO:root:faces: 0 at 2023-01-13 16:33:31.967353
+INFO:root:faces: 1 at 2023-01-13 16:33:32.539113
+INFO:root:faces: 0 at 2023-01-13 16:33:32.738112
+INFO:root:faces: 1 at 2023-01-13 16:33:32.998950
+INFO:root:faces: 0 at 2023-01-13 16:33:33.281212
+INFO:root:faces: 1 at 2023-01-13 16:33:33.376081
+INFO:root:faces: 0 at 2023-01-13 16:33:35.043632
+INFO:root:faces: 1 at 2023-01-13 16:33:35.145567
+INFO:root:faces: 0 at 2023-01-13 16:33:35.354438
+INFO:root:faces: 1 at 2023-01-13 16:33:35.628267
+INFO:root:faces: 0 at 2023-01-13 16:33:35.715214
+INFO:root:faces: 1 at 2023-01-13 16:33:36.167951
+INFO:root:faces: 0 at 2023-01-13 16:33:36.253897
+INFO:root:faces: 1 at 2023-01-13 16:33:36.769592
+INFO:root:faces: 0 at 2023-01-13 16:33:37.088864
+INFO:root:faces: 1 at 2023-01-13 16:33:37.658027
+INFO:root:faces: 0 at 2023-01-13 16:33:37.981826
+INFO:root:faces: 1 at 2023-01-13 16:33:38.243338
+INFO:root:faces: 0 at 2023-01-13 16:33:38.341032
+INFO:root:faces: 2 at 2023-01-13 16:35:16.473200
+INFO:root:faces: 0 at 2023-01-13 16:35:16.649093
+INFO:root:faces: 1 at 2023-01-13 16:35:16.961897
+INFO:root:faces: 0 at 2023-01-13 16:35:17.258713
+INFO:root:faces: 1 at 2023-01-13 16:35:17.388634
+INFO:root:faces: 0 at 2023-01-13 16:35:17.650471
+INFO:root:faces: 1 at 2023-01-13 16:35:17.933296
+INFO:root:faces: 0 at 2023-01-13 16:35:18.211123
+INFO:root:faces: 1 at 2023-01-13 16:35:18.306064
+INFO:root:faces: 0 at 2023-01-13 16:35:18.416523
+INFO:root:faces: 1 at 2023-01-13 16:35:18.737954
+INFO:root:faces: 0 at 2023-01-13 16:35:18.968810
+INFO:root:faces: 1 at 2023-01-13 16:35:19.803292
+INFO:root:faces: 0 at 2023-01-13 16:35:19.896234
+INFO:root:faces: 1 at 2023-01-13 16:35:21.128525
+INFO:root:faces: 0 at 2023-01-13 16:35:32.161996
+INFO:root:faces: 1 at 2023-01-13 16:35:34.630318
+INFO:root:faces: 0 at 2023-01-13 16:35:34.749245
+INFO:root:faces: 1 at 2023-01-13 16:35:35.765632
+INFO:root:faces: 0 at 2023-01-13 16:35:35.879561
+INFO:root:faces: 1 at 2023-01-13 16:35:36.525161
+INFO:root:faces: 0 at 2023-01-13 16:35:36.849980
+INFO:root:faces: 1 at 2023-01-13 16:35:47.867461
+INFO:root:faces: 0 at 2023-01-13 16:35:47.980390
+INFO:root:faces: 1 at 2023-01-13 16:35:48.074333
+INFO:root:faces: 0 at 2023-01-13 16:35:48.182279
+INFO:root:faces: 1 at 2023-01-13 16:35:48.597056
+INFO:root:faces: 0 at 2023-01-13 16:35:48.806925
+INFO:root:faces: 1 at 2023-01-13 16:35:49.468721
+INFO:root:faces: 0 at 2023-01-13 16:35:49.687066
+INFO:root:faces: 1 at 2023-01-13 16:35:52.375009
+INFO:root:faces: 0 at 2023-01-13 16:35:52.485824
+INFO:root:faces: 1 at 2023-01-13 16:35:53.119295
+INFO:root:faces: 0 at 2023-01-13 16:35:53.335162
+INFO:root:faces: 1 at 2023-01-13 16:35:53.867548
+INFO:root:faces: 0 at 2023-01-13 16:35:54.073656
+INFO:root:faces: 1 at 2023-01-13 16:35:54.182589
+INFO:root:faces: 0 at 2023-01-13 16:35:54.280526
+INFO:root:faces: 2 at 2023-01-13 16:35:54.499275
+INFO:root:faces: 0 at 2023-01-13 16:35:54.758116
+INFO:root:faces: 1 at 2023-01-13 16:35:54.867047
+INFO:root:faces: 0 at 2023-01-13 16:35:54.971983
+INFO:root:faces: 1 at 2023-01-13 16:35:55.242815
+INFO:root:faces: 0 at 2023-01-13 16:35:55.345441
+INFO:root:faces: 1 at 2023-01-13 16:35:55.858068
+INFO:root:faces: 0 at 2023-01-13 16:35:55.964061
+INFO:root:faces: 1 at 2023-01-13 16:35:56.709454
+INFO:root:faces: 0 at 2023-01-13 16:35:56.904834
+INFO:root:faces: 1 at 2023-01-13 16:35:57.143860
+INFO:root:faces: 0 at 2023-01-13 16:35:57.244515
+INFO:root:faces: 2 at 2023-01-13 16:35:57.914315
+INFO:root:faces: 0 at 2023-01-13 16:35:58.020502
+INFO:root:faces: 1 at 2023-01-13 16:35:58.422269
+INFO:root:faces: 0 at 2023-01-13 16:35:58.764926
+INFO:root:faces: 1 at 2023-01-13 16:35:59.305590
+INFO:root:faces: 0 at 2023-01-13 16:35:59.495637
+INFO:root:faces: 1 at 2023-01-13 16:35:59.620199
+INFO:root:faces: 0 at 2023-01-13 16:35:59.713143
+INFO:root:faces: 1 at 2023-01-13 16:36:00.032232
+INFO:root:faces: 0 at 2023-01-13 16:36:00.448973
+INFO:root:faces: 1 at 2023-01-13 16:36:00.555907
+INFO:root:faces: 0 at 2023-01-13 16:36:00.762942
+INFO:root:faces: 1 at 2023-01-13 16:36:00.873874
+INFO:root:faces: 0 at 2023-01-13 16:36:00.964771
+INFO:root:faces: 1 at 2023-01-13 16:36:02.130798
+INFO:root:faces: 0 at 2023-01-13 16:36:02.332672
+INFO:root:faces: 1 at 2023-01-13 16:36:02.818495
+INFO:root:faces: 0 at 2023-01-13 16:36:03.380789
+INFO:root:faces: 1 at 2023-01-13 16:36:03.946600
+INFO:root:faces: 0 at 2023-01-13 16:36:06.313899
+INFO:root:faces: 1 at 2023-01-13 16:36:06.612630
+INFO:root:faces: 0 at 2023-01-13 16:36:06.728578
+INFO:root:faces: 1 at 2023-01-13 16:36:07.649949
+INFO:root:faces: 0 at 2023-01-13 16:36:07.744893
+INFO:root:faces: 1 at 2023-01-13 16:36:09.510563
+INFO:root:faces: 0 at 2023-01-13 16:36:09.604518
+INFO:root:faces: 1 at 2023-01-13 16:36:11.805782
+INFO:root:faces: 0 at 2023-01-13 16:36:11.902724
+INFO:root:faces: 1 at 2023-01-13 16:36:12.570319
+INFO:root:faces: 0 at 2023-01-13 16:36:12.806173
+INFO:root:faces: 1 at 2023-01-13 16:36:14.060699
+INFO:root:faces: 0 at 2023-01-13 16:36:14.248583
+INFO:root:faces: 1 at 2023-01-13 16:36:15.451693
+INFO:root:faces: 0 at 2023-01-13 16:36:15.664560
+INFO:root:faces: 1 at 2023-01-13 16:36:15.848446
+INFO:root:faces: 0 at 2023-01-13 16:36:16.209019
+INFO:root:faces: 1 at 2023-01-13 16:36:16.299358
+INFO:root:faces: 0 at 2023-01-13 16:36:16.583627
+INFO:root:faces: 1 at 2023-01-13 16:36:16.785539
+INFO:root:faces: 0 at 2023-01-13 16:36:16.884476
+INFO:root:faces: 1 at 2023-01-13 16:36:17.301218
+INFO:root:faces: 0 at 2023-01-13 16:36:17.597034
+INFO:root:faces: 1 at 2023-01-13 16:36:17.987158
+INFO:root:faces: 0 at 2023-01-13 16:36:18.320805
+INFO:root:faces: 1 at 2023-01-13 16:36:18.519682
+INFO:root:faces: 0 at 2023-01-13 16:36:18.822574
+INFO:root:faces: 1 at 2023-01-13 16:36:21.481948
+INFO:root:faces: 0 at 2023-01-13 16:36:21.579906
+INFO:root:faces: 1 at 2023-01-13 16:36:21.669850
+INFO:root:faces: 0 at 2023-01-13 16:36:21.760797
+INFO:root:faces: 1 at 2023-01-13 16:36:22.422135
+INFO:root:faces: 0 at 2023-01-13 16:36:22.532065
+INFO:root:faces: 1 at 2023-01-13 16:36:23.363655
+INFO:root:faces: 0 at 2023-01-13 16:36:23.448601
+INFO:root:faces: 1 at 2023-01-13 16:36:24.600255
+INFO:root:faces: 0 at 2023-01-13 16:36:24.896168
+INFO:root:faces: 1 at 2023-01-13 16:36:25.656928
+INFO:root:faces: 0 at 2023-01-13 16:36:25.744875
+INFO:root:faces: 1 at 2023-01-13 16:36:26.204016
+INFO:root:faces: 0 at 2023-01-13 16:36:26.496834
+INFO:root:faces: 1 at 2023-01-13 16:36:26.857610
+INFO:root:faces: 0 at 2023-01-13 16:36:26.945005
+INFO:root:faces: 1 at 2023-01-13 16:36:27.042759
+INFO:root:faces: 0 at 2023-01-13 16:36:27.216662
+INFO:root:faces: 1 at 2023-01-13 16:36:27.677706
+INFO:root:faces: 0 at 2023-01-13 16:36:27.787639
+INFO:root:faces: 1 at 2023-01-13 16:36:28.361108
+INFO:root:faces: 0 at 2023-01-13 16:36:28.822094
+INFO:root:faces: 1 at 2023-01-13 16:36:28.917054
+INFO:root:faces: 0 at 2023-01-13 16:36:29.029078
+INFO:root:faces: 1 at 2023-01-13 16:36:30.254471
+INFO:root:faces: 0 at 2023-01-13 16:36:30.348412
+INFO:root:faces: 1 at 2023-01-13 16:36:30.488325
+INFO:root:faces: 0 at 2023-01-13 16:36:30.615247
+INFO:root:faces: 1 at 2023-01-13 16:36:33.585396
+INFO:root:faces: 0 at 2023-01-13 16:36:33.677359
+INFO:root:faces: 1 at 2023-01-13 16:36:34.638537
+INFO:root:faces: 0 at 2023-01-13 16:36:34.755465
+INFO:root:faces: 1 at 2023-01-13 16:36:36.529183
+INFO:root:faces: 0 at 2023-01-13 16:36:36.841751
+INFO:root:faces: 1 at 2023-01-13 16:36:41.248106
+INFO:root:faces: 0 at 2023-01-13 16:36:41.346046
+INFO:root:faces: 1 at 2023-01-13 16:36:41.715817
+INFO:root:faces: 0 at 2023-01-13 16:36:41.842738
+INFO:root:faces: 1 at 2023-01-13 16:36:41.939679
+INFO:root:faces: 0 at 2023-01-13 16:36:42.137554
+INFO:root:faces: 1 at 2023-01-13 16:36:42.436160
+INFO:root:faces: 2 at 2023-01-13 16:36:42.541094
+INFO:root:faces: 1 at 2023-01-13 16:36:42.644029
+INFO:root:faces: 0 at 2023-01-13 16:36:42.742972
+INFO:root:faces: 1 at 2023-01-13 16:36:42.866891
+INFO:root:faces: 0 at 2023-01-13 16:36:42.988817
+INFO:root:faces: 1 at 2023-01-13 16:36:44.196176
+INFO:root:faces: 0 at 2023-01-13 16:36:44.299114
+INFO:root:faces: 1 at 2023-01-13 16:36:44.927208
+INFO:root:faces: 0 at 2023-01-13 16:36:45.104181
+INFO:root:faces: 1 at 2023-01-13 16:36:47.009748
+INFO:root:faces: 0 at 2023-01-13 16:36:47.115682
+INFO:root:faces: 1 at 2023-01-13 16:36:47.224613
+INFO:root:faces: 0 at 2023-01-13 16:36:47.308561
+INFO:root:faces: 1 at 2023-01-13 16:36:47.392531
+INFO:root:faces: 0 at 2023-01-13 16:36:47.742054
+INFO:root:faces: 1 at 2023-01-13 16:36:47.828999
+INFO:root:faces: 0 at 2023-01-13 16:36:47.996896
+INFO:root:faces: 1 at 2023-01-13 16:36:48.588517
+INFO:root:faces: 0 at 2023-01-13 16:36:48.771861
+INFO:root:faces: 1 at 2023-01-13 16:36:50.604400
+INFO:root:faces: 0 at 2023-01-13 16:36:50.883591
+INFO:root:faces: 1 at 2023-01-13 16:36:51.106969
+INFO:root:faces: 0 at 2023-01-13 16:36:51.233891
+INFO:root:faces: 1 at 2023-01-13 16:36:51.661654
+INFO:root:faces: 0 at 2023-01-13 16:36:51.744603
+INFO:root:faces: 1 at 2023-01-13 16:36:52.100711
+INFO:root:faces: 0 at 2023-01-13 16:36:52.292110
+INFO:root:faces: 1 at 2023-01-13 16:36:54.687332
+INFO:root:faces: 0 at 2023-01-13 16:36:54.890209
+INFO:root:faces: 2 at 2023-01-13 16:36:57.163463
+INFO:root:faces: 1 at 2023-01-13 16:36:57.246410
+INFO:root:faces: 0 at 2023-01-13 16:36:57.407312
+INFO:root:faces: 1 at 2023-01-13 16:37:00.365241
+INFO:root:faces: 0 at 2023-01-13 16:37:00.652062
+INFO:root:faces: 1 at 2023-01-13 16:37:01.424673
+INFO:root:faces: 0 at 2023-01-13 16:37:01.678527
+INFO:root:faces: 1 at 2023-01-13 16:37:05.751543
+INFO:root:faces: 0 at 2023-01-13 16:37:05.945424
+INFO:root:faces: 1 at 2023-01-13 16:37:06.137187
+INFO:root:faces: 0 at 2023-01-13 16:37:06.238126
+INFO:root:faces: 2 at 2023-01-13 16:37:06.610895
+INFO:root:faces: 1 at 2023-01-13 16:37:06.798779
+INFO:root:faces: 0 at 2023-01-13 16:37:06.894719
+INFO:root:faces: 1 at 2023-01-13 16:37:07.349460
+INFO:root:faces: 0 at 2023-01-13 16:37:07.671198
+INFO:root:faces: 1 at 2023-01-13 16:37:07.788124
+INFO:root:faces: 0 at 2023-01-13 16:37:07.990001
+INFO:root:faces: 1 at 2023-01-13 16:37:08.087938
+INFO:root:faces: 0 at 2023-01-13 16:37:08.183763
+INFO:root:faces: 1 at 2023-01-13 16:37:10.406418
+INFO:root:faces: 0 at 2023-01-13 16:37:12.433590
+INFO:root:faces: 1 at 2023-01-13 16:37:12.569504
+INFO:root:faces: 0 at 2023-01-13 16:37:12.833340
+INFO:root:faces: 1 at 2023-01-13 16:37:13.340026
+INFO:root:faces: 0 at 2023-01-13 16:37:13.955642
+INFO:root:faces: 1 at 2023-01-13 16:37:14.065574
+INFO:root:faces: 0 at 2023-01-13 16:37:14.154518
+INFO:root:faces: 1 at 2023-01-13 16:37:14.248460
+INFO:root:faces: 0 at 2023-01-13 16:37:14.422353
+INFO:root:faces: 1 at 2023-01-13 16:37:14.608237
+INFO:root:faces: 0 at 2023-01-13 16:37:14.704179
+INFO:root:faces: 1 at 2023-01-13 16:37:14.956022
+INFO:root:faces: 0 at 2023-01-13 16:37:15.062957
+INFO:root:faces: 1 at 2023-01-13 16:37:15.431728
+INFO:root:faces: 0 at 2023-01-13 16:37:15.731406
+INFO:root:faces: 1 at 2023-01-13 16:37:15.822350
+INFO:root:faces: 0 at 2023-01-13 16:37:16.030222
+INFO:root:faces: 1 at 2023-01-13 16:37:16.470899
+INFO:root:faces: 0 at 2023-01-13 16:37:16.710708
+INFO:root:faces: 1 at 2023-01-13 16:37:16.815643
+INFO:root:faces: 0 at 2023-01-13 16:37:17.285352
+INFO:root:faces: 1 at 2023-01-13 16:37:17.377296
+INFO:root:faces: 0 at 2023-01-13 16:37:17.746066
+INFO:root:faces: 1 at 2023-01-13 16:37:18.541573
+INFO:root:faces: 0 at 2023-01-13 16:37:18.787421
+INFO:root:faces: 1 at 2023-01-13 16:37:19.496114
+INFO:root:faces: 0 at 2023-01-13 16:37:19.586058
+INFO:root:faces: 1 at 2023-01-13 16:37:20.427593
+INFO:root:faces: 0 at 2023-01-13 16:37:20.525531
+INFO:root:faces: 1 at 2023-01-13 16:37:24.482602
+INFO:root:faces: 0 at 2023-01-13 16:37:24.703465
+INFO:root:faces: 1 at 2023-01-13 16:37:25.471989
+INFO:root:faces: 0 at 2023-01-13 16:37:25.587918
+INFO:root:faces: 1 at 2023-01-13 16:42:45.013019
+INFO:root:faces: 0 at 2023-01-13 16:42:45.170921
+INFO:root:faces: 1 at 2023-01-13 16:42:45.347626
+INFO:root:faces: 0 at 2023-01-13 16:42:45.442229
+INFO:root:faces: 1 at 2023-01-13 16:42:45.525178
+INFO:root:faces: 0 at 2023-01-13 16:42:45.700576
+INFO:root:faces: 1 at 2023-01-13 16:42:46.059371
+INFO:root:faces: 0 at 2023-01-13 16:42:47.397486
+INFO:root:faces: 1 at 2023-01-13 16:42:47.496425
+INFO:root:faces: 3 at 2023-01-13 16:42:47.934154
+INFO:root:faces: 1 at 2023-01-13 16:42:48.071069
+INFO:root:faces: 2 at 2023-01-13 16:42:48.463825
+INFO:root:faces: 1 at 2023-01-13 16:42:48.652707
+INFO:root:faces: 0 at 2023-01-13 16:42:48.850585
+INFO:root:faces: 1 at 2023-01-13 16:42:48.956520
+INFO:root:faces: 2 at 2023-01-13 16:42:49.264329
+INFO:root:faces: 1 at 2023-01-13 16:42:49.376261
+INFO:root:faces: 2 at 2023-01-13 16:42:50.718471
+INFO:root:faces: 1 at 2023-01-13 16:42:50.953326
+INFO:root:faces: 0 at 2023-01-13 16:42:52.726456
+INFO:root:faces: 1 at 2023-01-13 16:42:52.986563
+INFO:root:faces: 0 at 2023-01-13 16:42:53.081207
+INFO:root:faces: 1 at 2023-01-13 16:42:53.560570
+INFO:root:faces: 2 at 2023-01-13 16:42:53.659509
+INFO:root:faces: 1 at 2023-01-13 16:42:53.748455
+INFO:root:faces: 2 at 2023-01-13 16:42:53.840397
+INFO:root:faces: 1 at 2023-01-13 16:42:54.334196
+INFO:root:faces: 0 at 2023-01-13 16:42:55.204015
+INFO:root:faces: 1 at 2023-01-13 16:42:55.611763
+INFO:root:faces: 0 at 2023-01-13 16:42:55.709703
+INFO:root:faces: 1 at 2023-01-13 16:42:56.001522
+INFO:root:faces: 0 at 2023-01-13 16:42:56.103458
+INFO:root:faces: 1 at 2023-01-13 16:42:57.003148
+INFO:root:faces: 0 at 2023-01-13 16:42:58.108905
+INFO:root:faces: 1 at 2023-01-13 16:42:58.200846
+INFO:root:faces: 0 at 2023-01-13 16:42:59.746391
+INFO:root:faces: 1 at 2023-01-13 16:42:59.843333
+INFO:root:faces: 0 at 2023-01-13 16:43:00.191117
+INFO:root:faces: 1 at 2023-01-13 16:43:04.211769
+INFO:root:faces: 0 at 2023-01-13 16:43:05.310341
+INFO:root:faces: 1 at 2023-01-13 16:43:05.928476
+INFO:root:faces: 0 at 2023-01-13 16:43:06.282257
+INFO:root:faces: 1 at 2023-01-13 16:43:06.981261
+INFO:root:faces: 0 at 2023-01-13 16:43:07.176154
+INFO:root:faces: 1 at 2023-01-13 16:43:10.794222
+INFO:root:faces: 0 at 2023-01-13 16:43:10.991097
+INFO:root:faces: 1 at 2023-01-13 16:43:11.371874
+INFO:root:faces: 0 at 2023-01-13 16:43:11.822040
+ERROR:django.request:Internal Server Error: /api/user/login/
+Traceback (most recent call last):
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\USER\auth\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\USER\auth\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\USER\facial_login\FactorApp\api\views.py", line 62, in post
+    recognized = Recognizer(detail)
+  File "C:\Users\USER\facial_login\FactorApp\recognizer.py", line 131, in Recognizer
+    match = DeepFace.verify(known_img, unknown_img, model_name='ArcFace')
+  File "C:\Users\USER\auth\lib\site-packages\deepface\DeepFace.py", line 163, in verify
+    img1_representation = represent(img_path = img1_path
+  File "C:\Users\USER\auth\lib\site-packages\deepface\DeepFace.py", line 754, in represent
+    img = functions.preprocess_face(img = img_path
+  File "C:\Users\USER\auth\lib\site-packages\deepface\commons\functions.py", line 178, in preprocess_face
+    img, region = detect_face(img = img, detector_backend = detector_backend, grayscale = grayscale, enforce_detection = enforce_detection, align = align)
+  File "C:\Users\USER\auth\lib\site-packages\deepface\commons\functions.py", line 124, in detect_face
+    raise ValueError("Face could not be detected. Please confirm that the picture is a face photo or consider to set enforce_detection param to False.")
+ValueError: Face could not be detected. Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+INFO:root:faces: 1 at 2023-01-13 16:48:31.876870
+INFO:root:faces: 0 at 2023-01-13 16:48:31.946826
+INFO:root:faces: 1 at 2023-01-13 16:48:32.031862
+INFO:root:faces: 0 at 2023-01-13 16:48:32.181570
+INFO:root:faces: 2 at 2023-01-13 16:48:36.434170
+INFO:root:faces: 1 at 2023-01-13 16:48:36.527530
+INFO:root:faces: 2 at 2023-01-13 16:48:36.619475
+INFO:root:faces: 1 at 2023-01-13 16:48:36.805358
+INFO:root:faces: 2 at 2023-01-13 16:48:37.522572
+INFO:root:faces: 1 at 2023-01-13 16:48:38.061316
+INFO:root:faces: 2 at 2023-01-13 16:48:38.188236
+INFO:root:faces: 1 at 2023-01-13 16:48:38.306163
+INFO:root:faces: 0 at 2023-01-13 16:48:39.763692
+INFO:root:faces: 1 at 2023-01-13 16:48:39.945579
+INFO:root:faces: 2 at 2023-01-13 16:48:41.120503
+INFO:root:faces: 1 at 2023-01-13 16:48:41.210300
+INFO:root:faces: 0 at 2023-01-13 16:48:41.392415
+INFO:root:faces: 1 at 2023-01-13 16:48:41.872364
+INFO:root:faces: 1 at 2023-01-13 16:49:24.614390
+INFO:root:faces: 2 at 2023-01-13 16:49:25.213021
+INFO:root:faces: 1 at 2023-01-13 16:49:25.306961
+INFO:root:faces: 2 at 2023-01-13 16:49:25.590785
+INFO:root:faces: 1 at 2023-01-13 16:49:25.682729
+INFO:root:faces: 2 at 2023-01-13 16:49:26.482614
+INFO:root:faces: 1 at 2023-01-13 16:49:26.591780
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /img/video-thumb_.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css
+WARNING:django.request:Not Found: /media/default.png
+WARNING:django.request:Not Found: /vendor/bootstrap/css/bootstrap.min.css

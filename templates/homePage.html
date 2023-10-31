@@ -1,0 +1,204 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="{% static 'assets/images/favicon.png' %}" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" >
+
+    <title>{% block page_title %}Welcome{% endblock %}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href={% static 'assets/css/templatemo-chain-app-dev.css' %}>
+    <link rel="stylesheet" href={% static 'assets/css/animated.css' %}>
+    <link rel="stylesheet" href={% static 'assets/css/owl.css' %}>
+    <link rel="stylesheet" href={% static 'assets/css/main.css' %}>
+
+  </head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <div class="container">
+      <div class="col-lg-10 mx-auto justify-content-center">
+            <div class="panel">
+                <div class="sticky-top d-flex flex-row justify-content-between p-4 bg-white">
+                    <div class="activity__list__header">
+                        <a href="{% url 'profile' %}">
+                            <small class="text-primary">{{ user.email }}</small>
+                            <img src="{% if user.avatar %}{{ user.avatar.url }}{% else %}{% static 'default.png' %}{% endif %}" alt="avatar" class="rounded-circle img-fluid" width="10" height="10" />
+                        </a>
+                    </div>                    
+                    <div class="addpost-btn">
+                        <button class="btn btn-sm btn-primary" type="button" data-toggle="modal" data-target="#postmodal"><i class="fa fa-plus"></i> Add Post</button>
+                    </div>
+                </div>
+                <div class="panel-content panel-activity">
+                    <!-- Message -->
+                    {% if messages %}
+                    <div class="row">
+                        <div class="col">
+                            {% for message in messages %}
+                                <div class="alert alert-success bg-success text-white alert-dismissible fade show" role="alert">
+                                    <div class="d-flex justify-content-between">
+                                        <p class="p-3">{{ message }}</p>
+                                        <button type="button" class="close m-2" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>	
+                                    </div>											
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+                    <!-- End Message -->
+                    <ul class="panel-activity__list">
+                        {% for post in posts %}
+                        <li>
+                            <i class="activity__list__icon fa fa-question-circle-o"></i>
+                            <div class="activity__list__header d-flex flex-row justify-content-between">
+                                <div>
+                                    <a href="{% if user.email == post.user.email %}{% url 'profile' %}{% else %}{% url 'otherprofile' post.user.email %}{% endif %} ">
+                                        <img src="{% if post.user.avatar %}{{ post.user.avatar.url }}{% else %}{% static 'default.png' %}{% endif %}" alt="avatar" class="rounded-circle" width="35" height="35" />
+                                        <small class="text-muted">{{ post.user.email }}</small>   
+                                    </a>                                      
+                                </div>                                
+                                <div>
+                                    <small><span><i class="fa fa-clock"></i> {{post.created_date}}</span></small> 
+                                </div>
+                            </div>
+                            <div class="activity__list__body entry-content">
+                                <p class="text-dark"><strong>{{post.text}}</strong></p>
+                                {% if post.images %}
+                                    <img class="img-responsive img-fluid img-thumbnail p-1" src="{{ post.images.url }}" alt="img_post" width="20" />    
+                                {% endif %}
+                                {% if post.videos %}
+                                    <div class="justify-content-center text-center">
+                                       <video poster="" width="600" height="350" controls><source src="{{ post.videos.url }}"></video>  
+                                    </div>                                      
+                                {% endif %}
+                            </div>                            
+                            <div class="activity__list__footer">
+                                <button onclick="LikePost({{post.id}})" type="button" class="" id="like_post-btn" style="background: transparent; border: none;">
+                                    {% if user in post.likes.all %}
+                                    <i class="fa fa-thumbs-up text-primary" id="thumbs-up-{{post.id}}"></i>
+                                    {% else %}
+                                    <i class="fa fa-thumbs-up" id="thumbs-up-{{post.id}}" style="color: rgb(108, 117, 125);"></i>
+                                    {% endif %}
+                                    <span id="display_like-{{post.id}}">{{post.num_likes}}</span>
+                                </button>
+                                <button onclick="UnLikePost({{post.id}})" type="button" class="" id="unlike_post-btn" style="background: transparent; border: none;">
+                                    {% if user in post.unlikes.all %}
+                                    <i class="fa fa-thumbs-down text-primary" id="thumbs-down-{{post.id}}"></i>
+                                    {% else %}
+                                    <i class="fa fa-thumbs-down" id="thumbs-down-{{post.id}}" style="color: rgb(108, 117, 125);"></i>
+                                    {% endif %}
+                                    <span id="display_unlike-{{post.id}}">{{post.num_unlikes}}</span>
+                                </button>                      
+                            </div>                          
+                        </li>                        
+                        {% empty %}
+                        <h3><strong>No Post Yet!</strong></h3>                        
+                        {% endfor %}                        
+                    </ul>
+                </div>
+          </div>
+      </div>
+    </div>
+
+     <!-- Post Modal -->
+     <div class="modal fade" id="postmodal" tabindex="-1" role="dialog" aria-labelledby="postmodalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="postmodalLabel">Add New Post</h5>
+                <button type="button" id="postmodalclose-btn" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <form class="panel-activity__status mb-3" method="POST" id="post-form" accept="image/*" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <!-- Display Alert Message -->
+                        <div class="container d-flex justify-content-center p-0">
+                            <div class="row">
+                                <div class="col">
+                                    <div id="avatar-alert" role="alert">
+                                    </div> 
+                                </div>									 
+                            </div>								
+                        </div>
+                        <!-- End Alert Message -->
+                        <textarea name="user_activity" id="text" placeholder="Share what you've been up to..." class="form-control"></textarea>
+                        <div class="video-display-wrapper embed-responsive embed-responsive-16by9 justify-content-center text-center">
+                            <video poster="img/video-thumb_.png" width="450" height="350" controls>
+                                <source id="video-display">
+                                Your browser does not support HTML5 video.
+                            </video>
+                        </div>
+                        <div class="img-display-wrapper">
+                            <img id="image-display" class="img-responsive img-fluid img-thumbnail rounded p3 mt-5" src="" alt="" width="10"/>
+                        </div>
+                        <div class="actions">
+                            <div class="btn-group">
+                                <!-- <button type="button" class="btn-link" title="" data-toggle="tooltip" data-original-title="Post an Image"><i class="fa fa-image"></i></button>
+                                <button type="button" class="btn-link" title="" data-toggle="tooltip" data-original-title="Post an Video"><i class="fa fa-video-camera"></i></button> -->
+                                <div class="image-upload-btn-wrapper p-2" >
+                                    <input type="file" id="image-upload-btn" accept="image/*" hidden style="cursor: pointer;"/>
+                                    <label for="image-upload-btn" class="image-site-btn"><i class="fa fa-image"></i></label>
+                                </div>
+                                <div class="video-upload-btn-wrapper p-2" style="cursor: pointer;">
+                                    <input type="file" id="video-upload-btn" accept="video/*" hidden />
+                                    <label for="video-upload-btn" class="video-site-btn"><i class="fa fa-video-camera"></i></label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-sm btn-rounded btn-info">Post</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Post Modal -->
+
+    <!-- Scripts -->
+    <script src="//code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src={% static 'vendor/jquery/jquery.min.js' %}></script>
+    <script src={% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}></script>
+    <script src={% static 'assets/js/owl-carousel.js' %}></script>
+    <script src={% static 'assets/js/animation.js' %}></script>
+    <script src={% static 'assets/js/imagesloaded.js' %}></script>
+    <script src={% static 'assets/js/popup.js' %}></script>
+    <script src={% static 'assets/js/custom.js' %}></script>
+    <script src={% static 'scripts.js' %}></script>
+</body>
+</html>
